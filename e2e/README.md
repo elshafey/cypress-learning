@@ -21,17 +21,19 @@
             <body>
                 <h1>Demo Site</h1>
                 </br>
-                <div>
-                    <label>UserName:</label>
-                    <input id="userid" class="login" name="username" type='text'>
+                <div class="class1">
+                    <div>
+                        <label>UserName:</label>
+                        <input id="userid" class="login" name="username" type='check'>
+                    </div>
                 </div>
             </body>
         </html>
-    - Tag Name: 
+    - Tag Name: Syntax `<HTML Tag>`, Example `h1`
     - ID: Syntax: `<HTML tag><#><Value of ID attribute>`, Example input#userid
     - Class: Syntax: `<HTML tag><.><Value of Class attribute>`, Exampe input.login-input
     - Attribute: Syntax: `<HTML tag><[attribute=Value of attribute]>`, Example input[name=username]
-    - Nested Selectors: `<Selector1> > <Selector2>`, Example `div > input`
+    - Nested Selectors: `<Selector1> > <Selector2>`, Example `.class1 > div > input`
     - Quiz1: Locate the input with attribut `name` equal `username`
     ``` html
     <html>
@@ -64,4 +66,5 @@
         - chaining commands
         - within function
 
-    - find filter
+    - `find()` filter
+      - 
