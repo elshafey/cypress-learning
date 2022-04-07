@@ -67,4 +67,14 @@
         - within function
 
     - `find()` filter
-      - 
+8. Asynchronous vs. synchronous ([Examples](cypress/integration/examples/lesson3.example1.js))
+    - Handling Asynchronous by .then
+9. Cypress Assertions ([Examples](cypress/integration/examples/lesson3.example2.js))
+   1.  Implicit Assertions
+       1.  .should(), .and()
+       2.  Applies to the object provided by the parent chained command
+   2.  Explicit Assertions
+   3.  Cypress automatically perform assertions on his own commands like .visit(), .get(), .click()
+   4.  Common assertions [here](https://docs.cypress.io/guides/references/assertions#Common-Assertions)
+
+10. UI interactions [here](https://docs.cypress.io/guides/core-concepts/interacting-with-elements#Actionability)

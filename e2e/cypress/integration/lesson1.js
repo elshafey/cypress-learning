@@ -10,7 +10,7 @@
     g. afterEach()
     i. only()
     j. skip()
-3. How to write cypress test case? (Prerequisite, action, expectations) see Example1
+3. How to write cypress test case? (Prerequisit, action, expectations) see Example1
 4. A tour in the Test Runner
 
 5. Locators: cypress depends on CSS Selectors
