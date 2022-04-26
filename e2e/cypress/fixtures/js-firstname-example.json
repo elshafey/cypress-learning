@@ -1,0 +1,14 @@
+[
+    {
+        "firstName":"#test",
+        "errorMsg":"Name must not have special characters"
+    },
+    {
+        "firstName":"test#",
+        "errorMsg":"Name must not have special characters"
+    },
+    {
+        "firstName":"t",
+        "errorMsg":"Name must be 2 characters at least"
+    }
+]

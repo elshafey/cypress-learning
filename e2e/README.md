@@ -78,3 +78,7 @@
    4.  Common assertions [here](https://docs.cypress.io/guides/references/assertions#Common-Assertions)
 
 10. UI interactions [here](https://docs.cypress.io/guides/core-concepts/interacting-with-elements#Actionability)
+11. Fuxtures [examples](cypress/integration/examples/lesson4.example1.js)
+    1.  What is fixture
+    2.  JSON objects
+    3.  ```this``` keyword
