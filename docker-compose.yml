@@ -1,11 +1,11 @@
 version: '3'
 services:
   e2e-cypress:
-    image: "cypress/included:9.5.1"
+    image: "cypress/included:10.0.3"
     container_name: "e2e-cypress-learning"
     user: "${UID}:${GID}"
     environment:
-      - CYPRESS_baseUrl=https://employer.wuzzuf.basharsys.com
+      # - CYPRESS_baseUrl=https://employer.wuzzuf.basharsys.com
       - DISPLAY
     entrypoint: ["cypress","open", "--project","."]
     working_dir: "/e2e"

@@ -1,0 +1,269 @@
+{
+    "data": {
+        "type": "employerUser",
+        "id": "2613373",
+        "attributes": {
+            "uniqueId": "a3e7fae2-306c-43ab-bfaa-f5e4dc098382",
+            "email": "test147@test.com",
+            "firstName": "Test Stubbed",
+            "middleName": null,
+            "lastName": "Test",
+            "birthDate": null,
+            "age": null,
+            "gender": null,
+            "photo": null,
+            "thumbnail": null,
+            "photoVersions": {
+                "thumbnail": null,
+                "small": null,
+                "xsmall": null
+            },
+            "postalCode": null,
+            "primaryPhone": "+202222222222",
+            "otherPhone": null,
+            "joinedAt": "06\/06\/2022 13:25:25",
+            "lastLogin": "06\/06\/2022 15:57:07",
+            "lastUpdate": "06\/06\/2022 13:25:25",
+            "lastProfileUpdate": "06\/06\/2022 13:25:25"
+        },
+        "relationships": {
+            "residenceCity": {
+                "data": null
+            },
+            "residenceCountry": {
+                "data": {
+                    "type": "country",
+                    "id": "56"
+                }
+            },
+            "role": {
+                "data": {
+                    "type": "userRole",
+                    "id": "5"
+                }
+            },
+            "status": {
+                "data": {
+                    "type": "userAccountStatus",
+                    "id": "2"
+                }
+            },
+            "employer": {
+                "data": {
+                    "type": "employer",
+                    "id": "89345"
+                }
+            },
+            "accountSettings": {
+                "data": null
+            },
+            "workRoles": {
+                "data": []
+            }
+        },
+        "links": {
+            "self": "https:\/\/testing.wuzzuf.basharsys.com\/api\/employerUser\/2613373"
+        },
+        "meta": {
+            "isImpersonated": false
+        }
+    },
+    "included": [
+        {
+            "type": "country",
+            "id": "56",
+            "attributes": {
+                "name": "Egypt",
+                "iso2Code": "EG",
+                "translations": null
+            }
+        },
+        {
+            "type": "userRole",
+            "id": "5",
+            "attributes": {
+                "name": "level2",
+                "translations": null
+            }
+        },
+        {
+            "type": "userAccountStatus",
+            "id": "2",
+            "attributes": {
+                "status": "Active"
+            }
+        },
+        {
+            "type": "employerAccountType",
+            "id": "1",
+            "attributes": {
+                "name": "Account Owner",
+                "translations": null
+            }
+        },
+        {
+            "type": "workIndustry",
+            "id": "5",
+            "attributes": {
+                "name": "Agriculture\/Fishing\/Farming",
+                "translations": null
+            }
+        },
+        {
+            "type": "companyWorkIndustry",
+            "id": "32186",
+            "relationships": {
+                "workIndustry": {
+                    "data": {
+                        "type": "workIndustry",
+                        "id": "5"
+                    }
+                }
+            }
+        },
+        {
+            "type": "companySize",
+            "id": "2",
+            "attributes": {
+                "size": "11-50 employees",
+                "translations": null
+            }
+        },
+        {
+            "type": "lookupCompanyStatus",
+            "id": "2",
+            "attributes": {
+                "name": "Pending approval"
+            }
+        },
+        {
+            "type": "company",
+            "id": "50717",
+            "attributes": {
+                "uniqueId": "dc4f1274-86d2-4d49-bcd3-830e5f9b6ce4",
+                "name": "Test",
+                "legalName": null,
+                "logo": null,
+                "slug": "Test-Egypt-50717",
+                "description": null,
+                "specialties": [],
+                "website": null,
+                "facebookPage": null,
+                "twitterAccount": null,
+                "linkedinProfile": null,
+                "blog": null,
+                "onlinePresence": {
+                    "facebook": null,
+                    "twitter": null,
+                    "linkedin": null,
+                    "blog": null,
+                    "website": null,
+                    "instagram": null,
+                    "youtube": null,
+                    "vimeo": null,
+                    "behance": null
+                },
+                "establishedYear": null,
+                "uniqueName": "Test -w- 50717",
+                "taxId": null,
+                "street": null,
+                "buildingNumber": null,
+                "area": null,
+                "publicStatus": {
+                    "id": 2,
+                    "name": "Under review"
+                },
+                "statusUpdatedAt": null,
+                "createdAt": "06\/06\/2022 13:25:25",
+                "perks": [],
+                "isEligibleForFreemium": false,
+                "isFreeInternshipAllowed": true,
+                "isEligibleForLearning": false,
+                "isMultinational": null,
+                "isStartup": false,
+                "isBusinessEmailRegister": true,
+                "hasDocs": false,
+                "phone": null,
+                "extraPhone": null,
+                "companyProfileLastUpdate": null,
+                "companyPageFirstVisit": null
+            },
+            "relationships": {
+                "workIndustries": {
+                    "data": [
+                        {
+                            "type": "companyWorkIndustry",
+                            "id": "32186"
+                        }
+                    ]
+                },
+                "country": {
+                    "data": {
+                        "type": "country",
+                        "id": "56"
+                    }
+                },
+                "city": {
+                    "data": null
+                },
+                "size": {
+                    "data": {
+                        "type": "companySize",
+                        "id": "2"
+                    }
+                },
+                "type": {
+                    "data": null
+                },
+                "accountManager": {
+                    "data": null
+                },
+                "recruiter": {
+                    "data": null
+                },
+                "verificationAdmin": {
+                    "data": null
+                },
+                "status": {
+                    "data": {
+                        "type": "lookupCompanyStatus",
+                        "id": "2"
+                    }
+                },
+                "approvalReason": {
+                    "data": null
+                },
+                "referralSource": {
+                    "data": null
+                }
+            },
+            "links": {
+                "profile": "jobs\/careers\/Test-Egypt-50717"
+            }
+        },
+        {
+            "type": "employer",
+            "id": "89345",
+            "attributes": {
+                "extension": null,
+                "jobTitle": "HR",
+                "createdAt": "06\/06\/2022 13:25:25",
+                "updatedAt": "06\/06\/2022 13:25:25"
+            },
+            "relationships": {
+                "accountType": {
+                    "data": {
+                        "type": "employerAccountType",
+                        "id": "1"
+                    }
+                },
+                "company": {
+                    "data": {
+                        "type": "company",
+                        "id": "50717"
+                    }
+                }
+            }
+        }
+    ]
+}

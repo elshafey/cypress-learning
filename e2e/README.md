@@ -82,3 +82,5 @@
     1.  What is fixture
     2.  JSON objects
     3.  ```this``` keyword
+12. Network Requests
+    1.  routeMatcher [here](https://docs.cypress.io/api/commands/intercept#routeMatcher-RouteMatcher)

@@ -1,0 +1,6164 @@
+{
+  "https://testing.wuzzuf.basharsys.com/api/employer?include=employer.company.accountManager,employer.company.recruiter,employer.company.status,employer.company.size,employer.company.type,employer.company.country,employer.company.city.country,employer.company.workIndustries.workIndustry,employer.accountType,residenceCountry,residenceCity.country,role,status,accountSettings,workRoles.workRole": {
+    "data": {
+      "type": "employerUser",
+      "id": "815495",
+      "attributes": {
+        "uniqueId": "904c54aa-c5f3-11ea-bc82-96c1969b034f",
+        "email": "mai@wuzzuf.net",
+        "firstName": "Mai",
+        "middleName": null,
+        "lastName": "Metawie",
+        "birthDate": null,
+        "age": null,
+        "gender": null,
+        "photo": null,
+        "thumbnail": null,
+        "photoVersions": {
+          "thumbnail": null,
+          "small": null,
+          "xsmall": null
+        },
+        "postalCode": null,
+        "primaryPhone": "01000111111",
+        "otherPhone": "",
+        "joinedAt": "12/13/2015 11:28:31",
+        "lastLogin": "06/13/2022 12:37:58",
+        "lastUpdate": "07/28/2021 14:37:17",
+        "lastProfileUpdate": "07/28/2021 14:37:17"
+      },
+      "relationships": {
+        "residenceCity": {
+          "data": {
+            "type": "city",
+            "id": "1545"
+          }
+        },
+        "residenceCountry": {
+          "data": {
+            "type": "country",
+            "id": "56"
+          }
+        },
+        "role": {
+          "data": {
+            "type": "userRole",
+            "id": "5"
+          }
+        },
+        "status": {
+          "data": {
+            "type": "userAccountStatus",
+            "id": "2"
+          }
+        },
+        "employer": {
+          "data": {
+            "type": "employer",
+            "id": "15833"
+          }
+        },
+        "accountSettings": {
+          "data": {
+            "type": "accountSettings",
+            "id": "22818"
+          }
+        },
+        "workRoles": {
+          "data": [
+            {
+              "type": "employerWorkRole",
+              "id": "12551"
+            },
+            {
+              "type": "employerWorkRole",
+              "id": "12552"
+            }
+          ]
+        }
+      },
+      "links": {
+        "self": "https://testing.wuzzuf.basharsys.com/api/employerUser/815495"
+      },
+      "meta": {
+        "isImpersonated": false
+      }
+    },
+    "included": [
+      {
+        "type": "country",
+        "id": "56",
+        "attributes": {
+          "name": "Egypt",
+          "iso2Code": "EG",
+          "translations": null
+        }
+      },
+      {
+        "type": "city",
+        "id": "1545",
+        "attributes": {
+          "name": "Cairo",
+          "translations": null,
+          "latitude": "30.05075900",
+          "longitude": "31.23383900"
+        },
+        "relationships": {
+          "country": {
+            "data": {
+              "type": "country",
+              "id": "56"
+            }
+          }
+        },
+        "links": {
+          "browsePage": "a/Jobs-in-Cairo"
+        }
+      },
+      {
+        "type": "userRole",
+        "id": "5",
+        "attributes": {
+          "name": "level2",
+          "translations": null
+        }
+      },
+      {
+        "type": "userAccountStatus",
+        "id": "2",
+        "attributes": {
+          "status": "Active"
+        }
+      },
+      {
+        "type": "employerAccountType",
+        "id": "1",
+        "attributes": {
+          "name": "Account Owner",
+          "translations": null
+        }
+      },
+      {
+        "type": "workIndustry",
+        "id": "3",
+        "attributes": {
+          "name": "Marketing and Advertising",
+          "translations": null
+        }
+      },
+      {
+        "type": "companyWorkIndustry",
+        "id": "32134",
+        "relationships": {
+          "workIndustry": {
+            "data": {
+              "type": "workIndustry",
+              "id": "3"
+            }
+          }
+        }
+      },
+      {
+        "type": "city",
+        "id": "1540",
+        "attributes": {
+          "name": "Alexandria",
+          "translations": null,
+          "latitude": "31.21170300",
+          "longitude": "29.91916800"
+        },
+        "relationships": {
+          "country": {
+            "data": {
+              "type": "country",
+              "id": "56"
+            }
+          }
+        },
+        "links": {
+          "browsePage": "a/Jobs-in-Alexandria"
+        }
+      },
+      {
+        "type": "companySize",
+        "id": "4",
+        "attributes": {
+          "size": "101-500 employees",
+          "translations": null
+        }
+      },
+      {
+        "type": "companyType",
+        "id": "1",
+        "attributes": {
+          "name": "Public Company"
+        }
+      },
+      {
+        "type": "adminUser",
+        "id": "648",
+        "attributes": {
+          "firstName": "Account",
+          "lastName": "Manager",
+          "email": "Account.manager@yahoo.com",
+          "photo": null,
+          "mobile": "01014521425",
+          "username": "A.manager",
+          "uniqueId": "9e001868-23dd-447c-b461-3179f1cef1a9"
+        }
+      },
+      {
+        "type": "adminUser",
+        "id": "293",
+        "attributes": {
+          "firstName": "Marina ",
+          "lastName": "Fekrey ",
+          "email": "marina.samir@wuzzuf.net",
+          "photo": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/sm-cropped637047765.png",
+          "mobile": "+201000745710",
+          "username": "MFekrey ",
+          "uniqueId": "92809e16-c5f3-11ea-bc82-96c1969b034f"
+        }
+      },
+      {
+        "type": "lookupCompanyStatus",
+        "id": "1",
+        "attributes": {
+          "name": "Approved"
+        }
+      },
+      {
+        "type": "company",
+        "id": "14868",
+        "attributes": {
+          "uniqueId": "b366aea6-8ada-11ea-b92e-2206e62d0816",
+          "name": "New Cairo British International School ",
+          "legalName": "",
+          "logo": null,
+          "slug": "New-Cairo-British-International-School--Egypt-14868",
+          "description": "sss",
+          "specialties": [],
+          "website": null,
+          "facebookPage": null,
+          "twitterAccount": null,
+          "linkedinProfile": null,
+          "blog": null,
+          "onlinePresence": {
+            "facebook": null,
+            "twitter": null,
+            "linkedin": null,
+            "blog": null,
+            "website": null,
+            "instagram": null,
+            "youtube": null,
+            "vimeo": null,
+            "behance": null
+          },
+          "establishedYear": null,
+          "uniqueName": "New Cairo British International School  -w- 14868",
+          "taxId": "#123 456-789A",
+          "street": " fa5r el dien",
+          "buildingNumber": "5",
+          "area": "Maadi",
+          "publicStatus": {
+            "id": 1,
+            "name": "Verified"
+          },
+          "statusUpdatedAt": "11/12/2020 12:58:43",
+          "createdAt": "12/13/2015 11:28:31",
+          "perks": [
+            {
+              "id": 1,
+              "name": "medical insurance"
+            },
+            {
+              "id": 2,
+              "name": "social insurance"
+            },
+            {
+              "id": 7,
+              "name": "flexible hours"
+            },
+            {
+              "id": 8,
+              "name": "work from home"
+            }
+          ],
+          "isEligibleForFreemium": false,
+          "isFreeInternshipAllowed": true,
+          "isEligibleForLearning": false,
+          "isMultinational": false,
+          "isStartup": false,
+          "isBusinessEmailRegister": true,
+          "hasDocs": false,
+          "phone": "0236587458",
+          "extraPhone": null,
+          "companyProfileLastUpdate": "05/14/2022 19:46:11",
+          "companyPageFirstVisit": "01/24/2022 15:37:09"
+        },
+        "relationships": {
+          "workIndustries": {
+            "data": [
+              {
+                "type": "companyWorkIndustry",
+                "id": "32134"
+              }
+            ]
+          },
+          "country": {
+            "data": {
+              "type": "country",
+              "id": "56"
+            }
+          },
+          "city": {
+            "data": {
+              "type": "city",
+              "id": "1540"
+            }
+          },
+          "size": {
+            "data": {
+              "type": "companySize",
+              "id": "4"
+            }
+          },
+          "type": {
+            "data": {
+              "type": "companyType",
+              "id": "1"
+            }
+          },
+          "accountManager": {
+            "data": {
+              "type": "adminUser",
+              "id": "648"
+            }
+          },
+          "recruiter": {
+            "data": {
+              "type": "adminUser",
+              "id": "293"
+            }
+          },
+          "verificationAdmin": {
+            "data": null
+          },
+          "status": {
+            "data": {
+              "type": "lookupCompanyStatus",
+              "id": "1"
+            }
+          },
+          "approvalReason": {
+            "data": {
+              "type": "CompanyApprovalReason",
+              "id": "2843"
+            }
+          },
+          "referralSource": {
+            "data": null
+          }
+        },
+        "links": {
+          "defaultCoverUrl": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/company_covers/1129292056627feaab74606.jpeg",
+          "coverUrl": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/company_covers/thumbs/1129292056627feaab74606.jpeg",
+          "profile": "jobs/careers/New-Cairo-British-International-School--Egypt-14868"
+        }
+      },
+      {
+        "type": "employer",
+        "id": "15833",
+        "attributes": {
+          "extension": 0,
+          "jobTitle": "Senior RC",
+          "createdAt": null,
+          "updatedAt": "07/28/2021 14:37:17"
+        },
+        "relationships": {
+          "accountType": {
+            "data": {
+              "type": "employerAccountType",
+              "id": "1"
+            }
+          },
+          "company": {
+            "data": {
+              "type": "company",
+              "id": "14868"
+            }
+          }
+        }
+      },
+      {
+        "type": "accountSettings",
+        "id": "22818",
+        "attributes": {
+          "noConfirmationMsg": true,
+          "toNextDirectly": false,
+          "pagePreferences": {
+            "dashboard": {
+              "assistant": {
+                "isShowingMyJobs": true
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "workRole",
+        "id": "2",
+        "attributes": {
+          "name": "Accounting/Finance",
+          "translations": null,
+          "searchName": "Accounting-Finance-Jobs"
+        },
+        "links": {
+          "browsePage": "a/Accounting-Finance-Jobs-in-Egypt"
+        },
+        "meta": {
+          "image": {
+            "small": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/assets/work-roles/Accounting-Finance-Jobs.jpg",
+            "large": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/assets/work-roles/Accounting-Finance-Jobs-lrg.jpg"
+          }
+        }
+      },
+      {
+        "type": "employerWorkRole",
+        "id": "12551",
+        "attributes": {
+          "createdAt": "07/28/2021 14:37:17"
+        },
+        "relationships": {
+          "workRole": {
+            "data": {
+              "type": "workRole",
+              "id": "2"
+            }
+          }
+        }
+      },
+      {
+        "type": "workRole",
+        "id": "4",
+        "attributes": {
+          "name": "Banking",
+          "translations": null,
+          "searchName": "Banking-Jobs"
+        },
+        "links": {
+          "browsePage": "a/Banking-Jobs-in-Egypt"
+        },
+        "meta": {
+          "image": {
+            "small": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/assets/work-roles/Banking-Jobs.jpg",
+            "large": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/assets/work-roles/Banking-Jobs-lrg.jpg"
+          }
+        }
+      },
+      {
+        "type": "employerWorkRole",
+        "id": "12552",
+        "attributes": {
+          "createdAt": "07/28/2021 14:37:17"
+        },
+        "relationships": {
+          "workRole": {
+            "data": {
+              "type": "workRole",
+              "id": "4"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "https://testing.wuzzuf.basharsys.com/api/company/package": {
+    "data": {
+      "type": "companyPackage",
+      "id": "121959",
+      "attributes": {
+        "uniqueId": "04d3fbb8-d0db-4d31-899e-bd19a1b48544",
+        "startDate": "04/26/2022 14:08:17",
+        "expireDate": "07/25/2022 14:08:17",
+        "isLatest": true,
+        "isExpired": false
+      },
+      "relationships": {
+        "companyPlan": {
+          "data": {
+            "type": "lookupCompanyPlan",
+            "id": "74"
+          }
+        },
+        "benefits": {
+          "data": [
+            {
+              "type": "companyBenefit",
+              "id": "32424"
+            },
+            {
+              "type": "companyBenefit",
+              "id": "32425"
+            },
+            {
+              "type": "companyBenefit",
+              "id": "33417"
+            },
+            {
+              "type": "companyBenefit",
+              "id": "33418"
+            },
+            {
+              "type": "companyBenefit",
+              "id": "33421"
+            },
+            {
+              "type": "companyBenefit",
+              "id": "33422"
+            },
+            {
+              "type": "companyBenefit",
+              "id": "33423"
+            },
+            {
+              "type": "companyBenefit",
+              "id": "33424"
+            },
+            {
+              "type": "companyBenefit",
+              "id": "33425"
+            },
+            {
+              "type": "companyBenefit",
+              "id": "33428"
+            },
+            {
+              "type": "companyBenefit",
+              "id": "33429"
+            },
+            {
+              "type": "companyBenefit",
+              "id": "33430"
+            },
+            {
+              "type": "companyBenefit",
+              "id": "62a7150df14e4"
+            },
+            {
+              "type": "companyBenefit",
+              "id": "62a7150df166f"
+            }
+          ]
+        }
+      },
+      "links": {
+        "self": "https://testing.wuzzuf.basharsys.com/api/companyPackage/121959"
+      },
+      "meta": {
+        "isExternalOnly": false
+      }
+    },
+    "included": [
+      {
+        "type": "lookupCompanyPlan",
+        "id": "74",
+        "attributes": {
+          "uniqueId": "90b36baf-2e69-11eb-a8e1-062a4819e772",
+          "name": "Lite / 3 Months Access",
+          "category": "no_touch",
+          "points": "30",
+          "nonDiscountedPrice": 300,
+          "price": 285,
+          "duration": 90,
+          "active": true
+        }
+      },
+      {
+        "type": "lookupPackageBenefit",
+        "id": "8",
+        "attributes": {
+          "uniqueId": "60510039-485f-11ec-bff9-0242ac130002",
+          "name": "Deal-breaker",
+          "lifetime": 365,
+          "createdAt": "11/25/2021 09:15:20",
+          "updatedAt": "11/25/2021 09:15:20"
+        }
+      },
+      {
+        "type": "companyBenefit",
+        "id": "32424",
+        "attributes": {
+          "uniqueId": "d9ab594a-f344-4bbc-9456-86b167631f7a",
+          "remainingPoints": 0,
+          "totalPoints": 0,
+          "expireAt": "02/16/2022 09:22:41",
+          "isLatest": true,
+          "createdAt": "01/17/2022 09:22:41",
+          "updatedAt": "01/17/2022 09:22:41"
+        },
+        "relationships": {
+          "packageBenefit": {
+            "data": {
+              "type": "lookupPackageBenefit",
+              "id": "8"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupPackageBenefit",
+        "id": "9",
+        "attributes": {
+          "uniqueId": "60511d02-485f-11ec-bff9-0242ac130002",
+          "name": "Voice Screening Question",
+          "lifetime": 365,
+          "createdAt": "11/25/2021 09:15:20",
+          "updatedAt": "11/25/2021 09:15:20"
+        }
+      },
+      {
+        "type": "companyBenefit",
+        "id": "32425",
+        "attributes": {
+          "uniqueId": "2931e81c-f8a7-4123-aff6-06f8c8b9906d",
+          "remainingPoints": 0,
+          "totalPoints": 0,
+          "expireAt": "02/16/2022 09:22:41",
+          "isLatest": true,
+          "createdAt": "01/17/2022 09:22:41",
+          "updatedAt": "01/17/2022 09:22:41"
+        },
+        "relationships": {
+          "packageBenefit": {
+            "data": {
+              "type": "lookupPackageBenefit",
+              "id": "9"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupPackageBenefit",
+        "id": "1",
+        "attributes": {
+          "uniqueId": "90cf1788-2e69-11eb-a8e1-062a4819e772",
+          "name": "External Opportunity",
+          "lifetime": 365,
+          "createdAt": "12/19/2017 09:04:53",
+          "updatedAt": "12/19/2017 09:04:53"
+        }
+      },
+      {
+        "type": "companyBenefit",
+        "id": "33417",
+        "attributes": {
+          "uniqueId": "607a1c52-a1a1-4767-8dd2-3b135177cff1",
+          "remainingPoints": 0,
+          "totalPoints": 0,
+          "expireAt": "04/26/2023 14:05:57",
+          "isLatest": true,
+          "createdAt": "04/26/2022 14:05:57",
+          "updatedAt": "04/26/2022 14:05:57"
+        },
+        "relationships": {
+          "packageBenefit": {
+            "data": {
+              "type": "lookupPackageBenefit",
+              "id": "1"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupPackageBenefit",
+        "id": "2",
+        "attributes": {
+          "uniqueId": "90cf1a42-2e69-11eb-a8e1-062a4819e772",
+          "name": "Invitation",
+          "lifetime": 365,
+          "createdAt": "11/30/-0001 00:00:00",
+          "updatedAt": "11/30/-0001 00:00:00"
+        }
+      },
+      {
+        "type": "companyBenefit",
+        "id": "33418",
+        "attributes": {
+          "uniqueId": "af440bf5-0213-4846-b2ab-cf736782e6d7",
+          "remainingPoints": 15,
+          "totalPoints": 15,
+          "expireAt": "04/26/2023 14:05:57",
+          "isLatest": true,
+          "createdAt": "04/26/2022 14:05:57",
+          "updatedAt": "04/26/2022 14:05:57"
+        },
+        "relationships": {
+          "packageBenefit": {
+            "data": {
+              "type": "lookupPackageBenefit",
+              "id": "2"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupPackageBenefit",
+        "id": "5",
+        "attributes": {
+          "uniqueId": "90cf1c6f-2e69-11eb-a8e1-062a4819e772",
+          "name": "Learning Unlocks",
+          "lifetime": 365,
+          "createdAt": "04/14/2020 12:42:14",
+          "updatedAt": "04/14/2020 12:42:14"
+        }
+      },
+      {
+        "type": "companyBenefit",
+        "id": "33421",
+        "attributes": {
+          "uniqueId": "c0ba7631-2ba9-4851-8a3e-9765430b1f98",
+          "remainingPoints": 0,
+          "totalPoints": 0,
+          "expireAt": "04/26/2023 14:05:57",
+          "isLatest": true,
+          "createdAt": "04/26/2022 14:05:57",
+          "updatedAt": "04/26/2022 14:05:57"
+        },
+        "relationships": {
+          "packageBenefit": {
+            "data": {
+              "type": "lookupPackageBenefit",
+              "id": "5"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupPackageBenefit",
+        "id": "6",
+        "attributes": {
+          "uniqueId": "90cf1cf9-2e69-11eb-a8e1-062a4819e772",
+          "name": "Learning Clicks",
+          "lifetime": 365,
+          "createdAt": "04/14/2020 12:42:14",
+          "updatedAt": "04/14/2020 12:42:14"
+        }
+      },
+      {
+        "type": "companyBenefit",
+        "id": "33422",
+        "attributes": {
+          "uniqueId": "c9e5c490-5218-412e-8506-aa1ea4b4b7f8",
+          "remainingPoints": 0,
+          "totalPoints": 0,
+          "expireAt": "04/26/2023 14:05:57",
+          "isLatest": true,
+          "createdAt": "04/26/2022 14:05:57",
+          "updatedAt": "04/26/2022 14:05:57"
+        },
+        "relationships": {
+          "packageBenefit": {
+            "data": {
+              "type": "lookupPackageBenefit",
+              "id": "6"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupPackageBenefit",
+        "id": "7",
+        "attributes": {
+          "uniqueId": "90cf1d82-2e69-11eb-a8e1-062a4819e772",
+          "name": "Learning Leads",
+          "lifetime": 365,
+          "createdAt": "04/14/2020 12:42:14",
+          "updatedAt": "04/14/2020 12:42:14"
+        }
+      },
+      {
+        "type": "companyBenefit",
+        "id": "33423",
+        "attributes": {
+          "uniqueId": "1c802f34-5c79-4913-a703-4a6c649f40f9",
+          "remainingPoints": 0,
+          "totalPoints": 0,
+          "expireAt": "04/26/2023 14:05:57",
+          "isLatest": true,
+          "createdAt": "04/26/2022 14:05:57",
+          "updatedAt": "04/26/2022 14:05:57"
+        },
+        "relationships": {
+          "packageBenefit": {
+            "data": {
+              "type": "lookupPackageBenefit",
+              "id": "7"
+            }
+          }
+        }
+      },
+      {
+        "type": "companyBenefit",
+        "id": "33424",
+        "attributes": {
+          "uniqueId": "9309c36b-919d-4640-9eb3-8667ea6416e2",
+          "remainingPoints": 0,
+          "totalPoints": 0,
+          "expireAt": "04/26/2023 14:08:18",
+          "isLatest": true,
+          "createdAt": "04/26/2022 14:08:18",
+          "updatedAt": "04/26/2022 14:08:18"
+        },
+        "relationships": {
+          "packageBenefit": {
+            "data": {
+              "type": "lookupPackageBenefit",
+              "id": "1"
+            }
+          }
+        }
+      },
+      {
+        "type": "companyBenefit",
+        "id": "33425",
+        "attributes": {
+          "uniqueId": "341b8f41-8991-41f4-a197-e66c8843800e",
+          "remainingPoints": 15,
+          "totalPoints": 15,
+          "expireAt": "04/26/2023 14:08:18",
+          "isLatest": true,
+          "createdAt": "04/26/2022 14:08:18",
+          "updatedAt": "04/26/2022 14:08:18"
+        },
+        "relationships": {
+          "packageBenefit": {
+            "data": {
+              "type": "lookupPackageBenefit",
+              "id": "2"
+            }
+          }
+        }
+      },
+      {
+        "type": "companyBenefit",
+        "id": "33428",
+        "attributes": {
+          "uniqueId": "f9e1e791-0b02-4889-aead-94d1fbff1389",
+          "remainingPoints": 0,
+          "totalPoints": 0,
+          "expireAt": "04/26/2023 14:08:18",
+          "isLatest": true,
+          "createdAt": "04/26/2022 14:08:18",
+          "updatedAt": "04/26/2022 14:08:18"
+        },
+        "relationships": {
+          "packageBenefit": {
+            "data": {
+              "type": "lookupPackageBenefit",
+              "id": "5"
+            }
+          }
+        }
+      },
+      {
+        "type": "companyBenefit",
+        "id": "33429",
+        "attributes": {
+          "uniqueId": "c9241d36-ea86-4139-956f-1ca29de781f3",
+          "remainingPoints": 0,
+          "totalPoints": 0,
+          "expireAt": "04/26/2023 14:08:18",
+          "isLatest": true,
+          "createdAt": "04/26/2022 14:08:18",
+          "updatedAt": "04/26/2022 14:08:18"
+        },
+        "relationships": {
+          "packageBenefit": {
+            "data": {
+              "type": "lookupPackageBenefit",
+              "id": "6"
+            }
+          }
+        }
+      },
+      {
+        "type": "companyBenefit",
+        "id": "33430",
+        "attributes": {
+          "uniqueId": "e62428ea-89fd-40a1-be2e-b784dad9984d",
+          "remainingPoints": 0,
+          "totalPoints": 0,
+          "expireAt": "04/26/2023 14:08:18",
+          "isLatest": true,
+          "createdAt": "04/26/2022 14:08:18",
+          "updatedAt": "04/26/2022 14:08:18"
+        },
+        "relationships": {
+          "packageBenefit": {
+            "data": {
+              "type": "lookupPackageBenefit",
+              "id": "7"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupPackageBenefit",
+        "id": "3",
+        "attributes": {
+          "uniqueId": "90cf1b4d-2e69-11eb-a8e1-062a4819e772",
+          "name": "Internal Opportunity",
+          "lifetime": 365,
+          "createdAt": "03/29/2019 02:51:54",
+          "updatedAt": "03/29/2019 02:51:54"
+        }
+      },
+      {
+        "type": "companyBenefit",
+        "id": "62a7150df14e4",
+        "attributes": {
+          "uniqueId": "5db57528-c46f-402e-84a4-8d7ac01fee4d",
+          "remainingPoints": 6,
+          "totalPoints": 6,
+          "expireAt": "07/25/2022 14:08:17",
+          "isLatest": 1,
+          "createdAt": "04/26/2022 14:08:17",
+          "updatedAt": null
+        },
+        "relationships": {
+          "packageBenefit": {
+            "data": {
+              "type": "lookupPackageBenefit",
+              "id": "3"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupPackageBenefit",
+        "id": "4",
+        "attributes": {
+          "uniqueId": "90cf1be3-2e69-11eb-a8e1-062a4819e772",
+          "name": "Profile Unlock",
+          "lifetime": 365,
+          "createdAt": "03/29/2019 02:51:54",
+          "updatedAt": "03/29/2019 02:51:54"
+        }
+      },
+      {
+        "type": "companyBenefit",
+        "id": "62a7150df166f",
+        "attributes": {
+          "uniqueId": "a0407055-40ae-4840-949b-aeba9508f062",
+          "remainingPoints": 30,
+          "totalPoints": 30,
+          "expireAt": "07/25/2022 14:08:17",
+          "isLatest": 1,
+          "createdAt": "04/26/2022 14:08:17",
+          "updatedAt": null
+        },
+        "relationships": {
+          "packageBenefit": {
+            "data": {
+              "type": "lookupPackageBenefit",
+              "id": "4"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "https://testing.wuzzuf.basharsys.com/api/company/opportunities-distribution?filter[other][status]=active": {
+    "data": {
+      "type": "generic",
+      "attributes": {
+        "opportunitiesFacets": {
+          "type": {
+            "internship": {
+              "total": 2,
+              "contribution": {
+                "me": {
+                  "total": 1,
+                  "applicationTarget": {
+                    "internal": {
+                      "total": 1
+                    },
+                    "external": {
+                      "total": 0
+                    }
+                  }
+                },
+                "all": {
+                  "total": 2,
+                  "applicationTarget": {
+                    "internal": {
+                      "total": 2
+                    },
+                    "external": {
+                      "total": 0
+                    }
+                  }
+                },
+                "other": {
+                  "total": 1,
+                  "applicationTarget": {
+                    "internal": {
+                      "total": 1
+                    },
+                    "external": {
+                      "total": 0
+                    }
+                  }
+                }
+              }
+            },
+            "job": {
+              "total": 18,
+              "contribution": {
+                "me": {
+                  "total": 12,
+                  "applicationTarget": {
+                    "internal": {
+                      "total": 12
+                    },
+                    "external": {
+                      "total": 0
+                    }
+                  }
+                },
+                "all": {
+                  "total": 18,
+                  "applicationTarget": {
+                    "internal": {
+                      "total": 18
+                    },
+                    "external": {
+                      "total": 0
+                    }
+                  }
+                },
+                "other": {
+                  "total": 6,
+                  "applicationTarget": {
+                    "internal": {
+                      "total": 6
+                    },
+                    "external": {
+                      "total": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "links": {
+        "self": "https://testing.wuzzuf.basharsys.com/api/generic/"
+      }
+    }
+  },
+  "https://testing.wuzzuf.basharsys.com/api/external-services/tracking-services": {
+    "data": {
+      "type": "trackingServices",
+      "id": "815495",
+      "attributes": {
+        "segment": {
+          "integrations": {
+            "intercom": {
+              "user_hash": "21264242cd8a48d575148ee1d5db141d041d9d12dc766f74b7a9334bfbec5c6a"
+            }
+          }
+        },
+        "fiveStars": {
+          "guid": "904c54aa-c5f3-11ea-bc82-96c1969b034f",
+          "signature": "23ba137ce20e8e0814d610b8bde9a132"
+        }
+      },
+      "links": {
+        "self": "https://testing.wuzzuf.basharsys.com/api/trackingServices/815495"
+      }
+    }
+  },
+  "https://testing.wuzzuf.basharsys.com/api/user/disabled-onboarding-notice": {
+    "data": [
+      {
+        "type": "disabledOnboardingNotice",
+        "id": "104277",
+        "attributes": {
+          "createdAt": "08/05/2020 11:50:20"
+        },
+        "relationships": {
+          "lookupOnboardingNotice": {
+            "data": {
+              "type": "lookupOnboardingNotice",
+              "id": "2"
+            }
+          }
+        }
+      },
+      {
+        "type": "disabledOnboardingNotice",
+        "id": "104312",
+        "attributes": {
+          "createdAt": "12/30/2020 19:21:18"
+        },
+        "relationships": {
+          "lookupOnboardingNotice": {
+            "data": {
+              "type": "lookupOnboardingNotice",
+              "id": "3"
+            }
+          }
+        }
+      },
+      {
+        "type": "disabledOnboardingNotice",
+        "id": "104297",
+        "attributes": {
+          "createdAt": "11/11/2020 13:28:42"
+        },
+        "relationships": {
+          "lookupOnboardingNotice": {
+            "data": {
+              "type": "lookupOnboardingNotice",
+              "id": "5"
+            }
+          }
+        }
+      },
+      {
+        "type": "disabledOnboardingNotice",
+        "id": "104302",
+        "attributes": {
+          "createdAt": "12/09/2020 14:30:53"
+        },
+        "relationships": {
+          "lookupOnboardingNotice": {
+            "data": {
+              "type": "lookupOnboardingNotice",
+              "id": "6"
+            }
+          }
+        }
+      },
+      {
+        "type": "disabledOnboardingNotice",
+        "id": "104360",
+        "attributes": {
+          "createdAt": "05/09/2021 11:52:12"
+        },
+        "relationships": {
+          "lookupOnboardingNotice": {
+            "data": {
+              "type": "lookupOnboardingNotice",
+              "id": "7"
+            }
+          }
+        }
+      },
+      {
+        "type": "disabledOnboardingNotice",
+        "id": "104523",
+        "attributes": {
+          "createdAt": "06/28/2021 10:35:13"
+        },
+        "relationships": {
+          "lookupOnboardingNotice": {
+            "data": {
+              "type": "lookupOnboardingNotice",
+              "id": "10"
+            }
+          }
+        }
+      },
+      {
+        "type": "disabledOnboardingNotice",
+        "id": "104524",
+        "attributes": {
+          "createdAt": "06/28/2021 11:45:10"
+        },
+        "relationships": {
+          "lookupOnboardingNotice": {
+            "data": {
+              "type": "lookupOnboardingNotice",
+              "id": "11"
+            }
+          }
+        }
+      },
+      {
+        "type": "disabledOnboardingNotice",
+        "id": "104623",
+        "attributes": {
+          "createdAt": "03/08/2022 13:04:12"
+        },
+        "relationships": {
+          "lookupOnboardingNotice": {
+            "data": {
+              "type": "lookupOnboardingNotice",
+              "id": "18"
+            }
+          }
+        }
+      },
+      {
+        "type": "disabledOnboardingNotice",
+        "id": "104610",
+        "attributes": {
+          "createdAt": "01/16/2022 13:31:49"
+        },
+        "relationships": {
+          "lookupOnboardingNotice": {
+            "data": {
+              "type": "lookupOnboardingNotice",
+              "id": "19"
+            }
+          }
+        }
+      }
+    ],
+    "included": [
+      {
+        "type": "lookupOnboardingNotice",
+        "id": "2",
+        "attributes": {
+          "name": "employer_interview_add_interview_popover"
+        }
+      },
+      {
+        "type": "lookupOnboardingNotice",
+        "id": "3",
+        "attributes": {
+          "name": "talent_covid_19_job_affected_card"
+        }
+      },
+      {
+        "type": "lookupOnboardingNotice",
+        "id": "5",
+        "attributes": {
+          "name": "employer_talent_folder_add_candidate"
+        }
+      },
+      {
+        "type": "lookupOnboardingNotice",
+        "id": "6",
+        "attributes": {
+          "name": "employer_application_form_matching_score_survey"
+        }
+      },
+      {
+        "type": "lookupOnboardingNotice",
+        "id": "7",
+        "attributes": {
+          "name": "employer_dashboard_free_unlock_popover"
+        }
+      },
+      {
+        "type": "lookupOnboardingNotice",
+        "id": "10",
+        "attributes": {
+          "name": "employer_dashboard_voice_questions_announcement_banner"
+        }
+      },
+      {
+        "type": "lookupOnboardingNotice",
+        "id": "11",
+        "attributes": {
+          "name": "employer_job_post_form_voice_questions_announcement_popover"
+        }
+      },
+      {
+        "type": "lookupOnboardingNotice",
+        "id": "18",
+        "attributes": {
+          "name": "employer_unlock_edit_company_page_free_trial"
+        }
+      },
+      {
+        "type": "lookupOnboardingNotice",
+        "id": "19",
+        "attributes": {
+          "name": "employer_job_page_access_screening_addon_button"
+        }
+      }
+    ]
+  },
+  "https://testing.wuzzuf.basharsys.com/api/company/employers?include=employer.company&filter%5Bstatus%5D=2": {
+    "data": [
+      {
+        "type": "employerUser",
+        "id": "815495",
+        "attributes": {
+          "uniqueId": "904c54aa-c5f3-11ea-bc82-96c1969b034f",
+          "email": "mai@wuzzuf.net",
+          "firstName": "Mai",
+          "middleName": null,
+          "lastName": "Metawie",
+          "birthDate": null,
+          "age": null,
+          "gender": null,
+          "photo": null,
+          "thumbnail": null,
+          "photoVersions": {
+            "thumbnail": null,
+            "small": null,
+            "xsmall": null
+          },
+          "postalCode": null,
+          "primaryPhone": "01000111111",
+          "otherPhone": "",
+          "joinedAt": "12/13/2015 11:28:31",
+          "lastLogin": "06/13/2022 12:37:58",
+          "lastUpdate": "07/28/2021 14:37:17",
+          "lastProfileUpdate": "07/28/2021 14:37:17"
+        },
+        "relationships": {
+          "employer": {
+            "data": {
+              "type": "employer",
+              "id": "15833"
+            }
+          }
+        },
+        "links": {
+          "self": "https://testing.wuzzuf.basharsys.com/api/employerUser/815495"
+        }
+      }
+    ],
+    "included": [
+      {
+        "type": "company",
+        "id": "14868",
+        "attributes": {
+          "uniqueId": "b366aea6-8ada-11ea-b92e-2206e62d0816",
+          "name": "New Cairo British International School ",
+          "legalName": "",
+          "logo": null,
+          "slug": "New-Cairo-British-International-School--Egypt-14868",
+          "description": "sss",
+          "specialties": [],
+          "website": null,
+          "facebookPage": null,
+          "twitterAccount": null,
+          "linkedinProfile": null,
+          "blog": null,
+          "onlinePresence": {
+            "facebook": null,
+            "twitter": null,
+            "linkedin": null,
+            "blog": null,
+            "website": null,
+            "instagram": null,
+            "youtube": null,
+            "vimeo": null,
+            "behance": null
+          },
+          "establishedYear": null,
+          "uniqueName": "New Cairo British International School  -w- 14868",
+          "taxId": "#123 456-789A",
+          "street": " fa5r el dien",
+          "buildingNumber": "5",
+          "area": "Maadi",
+          "publicStatus": {
+            "id": 1,
+            "name": "Verified"
+          },
+          "statusUpdatedAt": "11/12/2020 12:58:43",
+          "createdAt": "12/13/2015 11:28:31",
+          "perks": [
+            {
+              "id": 1,
+              "name": "medical insurance"
+            },
+            {
+              "id": 2,
+              "name": "social insurance"
+            },
+            {
+              "id": 7,
+              "name": "flexible hours"
+            },
+            {
+              "id": 8,
+              "name": "work from home"
+            }
+          ],
+          "isEligibleForFreemium": false,
+          "isFreeInternshipAllowed": true,
+          "isEligibleForLearning": false,
+          "isMultinational": false,
+          "isStartup": false,
+          "isBusinessEmailRegister": true,
+          "hasDocs": false,
+          "phone": "0236587458",
+          "extraPhone": null,
+          "companyProfileLastUpdate": "05/14/2022 19:46:11",
+          "companyPageFirstVisit": "01/24/2022 15:37:09"
+        },
+        "relationships": {
+          "workIndustries": {
+            "data": [
+              {
+                "type": "companyWorkIndustry",
+                "id": "32134"
+              }
+            ]
+          },
+          "country": {
+            "data": {
+              "type": "country",
+              "id": "56"
+            }
+          },
+          "city": {
+            "data": {
+              "type": "city",
+              "id": "1540"
+            }
+          },
+          "size": {
+            "data": {
+              "type": "companySize",
+              "id": "4"
+            }
+          },
+          "type": {
+            "data": {
+              "type": "companyType",
+              "id": "1"
+            }
+          },
+          "accountManager": {
+            "data": {
+              "type": "adminUser",
+              "id": "648"
+            }
+          },
+          "recruiter": {
+            "data": {
+              "type": "adminUser",
+              "id": "293"
+            }
+          },
+          "verificationAdmin": {
+            "data": null
+          },
+          "status": {
+            "data": {
+              "type": "lookupCompanyStatus",
+              "id": "1"
+            }
+          },
+          "approvalReason": {
+            "data": {
+              "type": "CompanyApprovalReason",
+              "id": "2843"
+            }
+          },
+          "referralSource": {
+            "data": null
+          }
+        },
+        "links": {
+          "defaultCoverUrl": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/company_covers/1129292056627feaab74606.jpeg",
+          "coverUrl": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/company_covers/thumbs/1129292056627feaab74606.jpeg",
+          "profile": "jobs/careers/New-Cairo-British-International-School--Egypt-14868"
+        }
+      },
+      {
+        "type": "employer",
+        "id": "15833",
+        "attributes": {
+          "extension": 0,
+          "jobTitle": "Senior RC",
+          "createdAt": null,
+          "updatedAt": "07/28/2021 14:37:17"
+        },
+        "relationships": {
+          "company": {
+            "data": {
+              "type": "company",
+              "id": "14868"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "https://testing.wuzzuf.basharsys.com/api/log/visit": "",
+  "https://testing.wuzzuf.basharsys.com/api/company/fields-to-update?filter%5Bother%5D%5Bsource%5D=employer-dashboard": {
+    "data": [
+      {
+        "type": "companyProfileField",
+        "id": "photos",
+        "attributes": {
+          "name": "photos",
+          "lastUpdate": "12/13/2021 12:44:33"
+        }
+      },
+      {
+        "type": "companyProfileField",
+        "id": "videos",
+        "attributes": {
+          "name": "videos",
+          "lastUpdate": "12/13/2021 12:44:33"
+        }
+      },
+      {
+        "type": "companyProfileField",
+        "id": "highlightedJob",
+        "attributes": {
+          "name": "highlightedJob",
+          "lastUpdate": "12/13/2021 12:44:33"
+        }
+      }
+    ]
+  },
+  "https://testing.wuzzuf.basharsys.com/api/employer/unread-strong-applicants-count?filter[other][contribution]=me": {
+    "data": {
+      "type": "generic",
+      "attributes": {
+        "applicantsCount": 0,
+        "opportunitiesCount": 0
+      },
+      "links": {
+        "self": "https://testing.wuzzuf.basharsys.com/api/generic/"
+      }
+    }
+  },
+  "https://testing.wuzzuf.basharsys.com/api/employer/unread-strong-applicants-count?filter[other][contribution]=all": {
+    "data": {
+      "type": "generic",
+      "attributes": {
+        "applicantsCount": 0,
+        "opportunitiesCount": 0
+      },
+      "links": {
+        "self": "https://testing.wuzzuf.basharsys.com/api/generic/"
+      }
+    }
+  },
+  "https://testing.wuzzuf.basharsys.com/api/company/opportunities-distribution?filter[other][status]=active,closed,expired,clicks_expired": {
+    "data": {
+      "type": "generic",
+      "attributes": {
+        "opportunitiesFacets": {
+          "type": {
+            "internship": {
+              "total": 2,
+              "contribution": {
+                "me": {
+                  "total": 1,
+                  "applicationTarget": {
+                    "internal": {
+                      "total": 1
+                    },
+                    "external": {
+                      "total": 0
+                    }
+                  }
+                },
+                "all": {
+                  "total": 2,
+                  "applicationTarget": {
+                    "internal": {
+                      "total": 2
+                    },
+                    "external": {
+                      "total": 0
+                    }
+                  }
+                },
+                "other": {
+                  "total": 1,
+                  "applicationTarget": {
+                    "internal": {
+                      "total": 1
+                    },
+                    "external": {
+                      "total": 0
+                    }
+                  }
+                }
+              }
+            },
+            "job": {
+              "total": 22,
+              "contribution": {
+                "me": {
+                  "total": 14,
+                  "applicationTarget": {
+                    "internal": {
+                      "total": 14
+                    },
+                    "external": {
+                      "total": 0
+                    }
+                  }
+                },
+                "all": {
+                  "total": 22,
+                  "applicationTarget": {
+                    "internal": {
+                      "total": 22
+                    },
+                    "external": {
+                      "total": 0
+                    }
+                  }
+                },
+                "other": {
+                  "total": 8,
+                  "applicationTarget": {
+                    "internal": {
+                      "total": 8
+                    },
+                    "external": {
+                      "total": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "links": {
+        "self": "https://testing.wuzzuf.basharsys.com/api/generic/"
+      }
+    }
+  },
+  "https://testing.wuzzuf.basharsys.com/api/employer/assistant-opportunities?filter[other][contribution]=me&include=city,area,country,opportunityWorkTypes.workType,createdBy,company,opportunityFolderSetup.lookupOpportunityFolder": {
+    "data": [
+      {
+        "type": "opportunity",
+        "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f",
+        "attributes": {
+          "jobType": "job",
+          "title": "Product Designer",
+          "description": "<p>sdaasdadasdasasdaasdadasdasasdaasdadasdasasdaasdadasdasasdaasdadasdasasdaasdadasdasasdaasdadasdasasdaasdadasdasasdaasdadasdasa</p>",
+          "gender": "No Preference",
+          "logo": null,
+          "views": 0,
+          "numVacancies": "1",
+          "experienceYears": "2-5",
+          "isConfidential": false,
+          "tempWorkingFromHome": false,
+          "salaryMin": 10000,
+          "salaryMax": 20000,
+          "salaryPeriod": "Per Month",
+          "hideSalary": true,
+          "isAutoPosted": false,
+          "slug": "Lsc34ET3CfGz-Product-Designer-New-Cairo-British-International-School-Cairo-Egypt",
+          "isInternal": true,
+          "externalApplyLink": null,
+          "status": "Active",
+          "postedAt": "03/23/2022 13:13:20",
+          "expiresAt": "05/22/2022 13:13:20",
+          "createdAt": "03/23/2022 13:12:37",
+          "updatedAt": "03/23/2022 13:13:20",
+          "opportunityType": "job",
+          "isDraft": false,
+          "isImpersonatedCreator": false
+        },
+        "relationships": {
+          "company": {
+            "data": {
+              "type": "company",
+              "id": "14868"
+            }
+          },
+          "opportunityWorkTypes": {
+            "data": [
+              {
+                "type": "opportunityWorkType",
+                "id": "335722"
+              }
+            ]
+          },
+          "country": {
+            "data": {
+              "type": "country",
+              "id": "56"
+            }
+          },
+          "city": {
+            "data": {
+              "type": "city",
+              "id": "1545"
+            }
+          },
+          "area": {
+            "data": {
+              "type": "area",
+              "id": "36"
+            }
+          },
+          "createdBy": {
+            "data": {
+              "type": "employerUser",
+              "id": "815495"
+            }
+          },
+          "opportunityFolderSetup": {
+            "data": [
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304001"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304002"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304003"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304004"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304005"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304006"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304007"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304008"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304009"
+              }
+            ]
+          }
+        },
+        "links": {
+          "self": "https://testing.wuzzuf.basharsys.com/api/opportunity/91034ff1-bc7e-433f-a3eb-8a084ad4f42f",
+          "view": "jobs/p/Lsc34ET3CfGz-Product-Designer-New-Cairo-British-International-School-Cairo-Egypt"
+        },
+        "meta": {
+          "unreadStrongCount": 0,
+          "unreadHandpickedCount": 0,
+          "unreadInvitationsCount": 0,
+          "unreadApplicationsCount": 0,
+          "totalFreeApplicants": 0,
+          "applicationsCount": 0,
+          "opportunityUrl": "https://testing.wuzzuf.basharsys.com/jobs/p/Lsc34ET3CfGz-Product-Designer-New-Cairo-British-International-School-Cairo-Egypt"
+        }
+      },
+      {
+        "type": "opportunity",
+        "id": "05a3090f-1df4-4aa9-bc46-00628bc36511",
+        "attributes": {
+          "jobType": "job",
+          "title": "asdfasdfasdf * ALi bdgj",
+          "description": "<p>Enter keywords including any related job titles, technologies, or keywords the candidate should have in his CV.</p><p>Enter keywords including any related job titles, technologies, or keywords the candidate should have in his CV.</p><p> </p>",
+          "gender": "No Preference",
+          "logo": null,
+          "views": 0,
+          "numVacancies": "1",
+          "experienceYears": "5-5",
+          "isConfidential": false,
+          "tempWorkingFromHome": false,
+          "salaryMin": 80000,
+          "salaryMax": 80000,
+          "salaryPeriod": "Per Month",
+          "hideSalary": false,
+          "isAutoPosted": false,
+          "slug": "bW0HMeBBC91E-asdfasdfasdf-ALi-bdgj-New-Cairo-British-International-School-Cairo-Egypt",
+          "isInternal": true,
+          "externalApplyLink": null,
+          "status": "Active",
+          "postedAt": "01/12/2022 11:19:41",
+          "expiresAt": "03/13/2022 11:19:41",
+          "createdAt": "01/12/2022 11:17:39",
+          "updatedAt": "01/12/2022 11:19:41",
+          "opportunityType": "job",
+          "isDraft": false,
+          "isImpersonatedCreator": true
+        },
+        "relationships": {
+          "company": {
+            "data": {
+              "type": "company",
+              "id": "14868"
+            }
+          },
+          "opportunityWorkTypes": {
+            "data": [
+              {
+                "type": "opportunityWorkType",
+                "id": "335697"
+              }
+            ]
+          },
+          "country": {
+            "data": {
+              "type": "country",
+              "id": "56"
+            }
+          },
+          "city": {
+            "data": {
+              "type": "city",
+              "id": "1545"
+            }
+          },
+          "area": {
+            "data": null
+          },
+          "createdBy": {
+            "data": {
+              "type": "employerUser",
+              "id": "815495"
+            }
+          },
+          "opportunityFolderSetup": {
+            "data": [
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303785"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303786"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303787"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303788"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303789"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303790"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303791"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303792"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303793"
+              }
+            ]
+          }
+        },
+        "links": {
+          "self": "https://testing.wuzzuf.basharsys.com/api/opportunity/05a3090f-1df4-4aa9-bc46-00628bc36511",
+          "view": "jobs/p/bW0HMeBBC91E-asdfasdfasdf-ALi-bdgj-New-Cairo-British-International-School-Cairo-Egypt"
+        },
+        "meta": {
+          "unreadStrongCount": 0,
+          "unreadHandpickedCount": 0,
+          "unreadInvitationsCount": 0,
+          "unreadApplicationsCount": 0,
+          "totalFreeApplicants": 0,
+          "applicationsCount": 0,
+          "opportunityUrl": "https://testing.wuzzuf.basharsys.com/jobs/p/bW0HMeBBC91E-asdfasdfasdf-ALi-bdgj-New-Cairo-British-International-School-Cairo-Egypt"
+        }
+      },
+      {
+        "type": "opportunity",
+        "id": "08038412-bd2f-4892-93a6-0305d6ad7dd9",
+        "attributes": {
+          "jobType": "job",
+          "title": "asdfasdfasdf *hygfvbnjkytfgvbqq11",
+          "description": "<p>Enter keywords including any related job titles, technologies, or keywords the candidate should have in his CV.</p><p>Enter keywords including any related job titles, technologies, or keywords the candidate should have in his CV.</p><p> </p>",
+          "gender": "No Preference",
+          "logo": null,
+          "views": 0,
+          "numVacancies": "1",
+          "experienceYears": "5-5",
+          "isConfidential": false,
+          "tempWorkingFromHome": false,
+          "salaryMin": 80000,
+          "salaryMax": 80000,
+          "salaryPeriod": "Per Month",
+          "hideSalary": false,
+          "isAutoPosted": false,
+          "slug": "54GgvMiu58KH-asdfasdfasdf-hygfvbnjkytfgvbqq11-New-Cairo-British-International-School-Cairo-Egypt",
+          "isInternal": true,
+          "externalApplyLink": null,
+          "status": "Active",
+          "postedAt": "01/09/2022 13:57:48",
+          "expiresAt": "03/10/2022 13:57:48",
+          "createdAt": "01/09/2022 12:16:33",
+          "updatedAt": "01/09/2022 13:57:48",
+          "opportunityType": "job",
+          "isDraft": false,
+          "isImpersonatedCreator": false
+        },
+        "relationships": {
+          "company": {
+            "data": {
+              "type": "company",
+              "id": "14868"
+            }
+          },
+          "opportunityWorkTypes": {
+            "data": [
+              {
+                "type": "opportunityWorkType",
+                "id": "335660"
+              }
+            ]
+          },
+          "country": {
+            "data": {
+              "type": "country",
+              "id": "56"
+            }
+          },
+          "city": {
+            "data": {
+              "type": "city",
+              "id": "1545"
+            }
+          },
+          "area": {
+            "data": null
+          },
+          "createdBy": {
+            "data": {
+              "type": "employerUser",
+              "id": "815495"
+            }
+          },
+          "opportunityFolderSetup": {
+            "data": [
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303506"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303507"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303508"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303509"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303510"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303511"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303512"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303513"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303514"
+              }
+            ]
+          }
+        },
+        "links": {
+          "self": "https://testing.wuzzuf.basharsys.com/api/opportunity/08038412-bd2f-4892-93a6-0305d6ad7dd9",
+          "view": "jobs/p/54GgvMiu58KH-asdfasdfasdf-hygfvbnjkytfgvbqq11-New-Cairo-British-International-School-Cairo-Egypt"
+        },
+        "meta": {
+          "unreadStrongCount": 0,
+          "unreadHandpickedCount": 0,
+          "unreadInvitationsCount": 0,
+          "unreadApplicationsCount": 0,
+          "totalFreeApplicants": 0,
+          "applicationsCount": 0,
+          "opportunityUrl": "https://testing.wuzzuf.basharsys.com/jobs/p/54GgvMiu58KH-asdfasdfasdf-hygfvbnjkytfgvbqq11-New-Cairo-British-International-School-Cairo-Egypt"
+        }
+      },
+      {
+        "type": "opportunity",
+        "id": "b04bbbe1-7471-4d53-96f7-64ffe4b9ab07",
+        "attributes": {
+          "jobType": "job",
+          "title": "asdfasdfasdf *hygfvbnjkytfgvbqq",
+          "description": "<p>Enter keywords including any related job titles, technologies, or keywords the candidate should have in his CV.</p><p>Enter keywords including any related job titles, technologies, or keywords the candidate should have in his CV.</p><p> </p>",
+          "gender": "No Preference",
+          "logo": null,
+          "views": 0,
+          "numVacancies": "1",
+          "experienceYears": "5-5",
+          "isConfidential": false,
+          "tempWorkingFromHome": false,
+          "salaryMin": 80000,
+          "salaryMax": 80000,
+          "salaryPeriod": "Per Month",
+          "hideSalary": false,
+          "isAutoPosted": false,
+          "slug": "zEQtNurGdYOO-asdfasdfasdf-hygfvbnjkytfgvbqq-New-Cairo-British-International-School-Cairo-Egypt",
+          "isInternal": true,
+          "externalApplyLink": null,
+          "status": "Active",
+          "postedAt": "01/02/2022 13:43:57",
+          "expiresAt": "03/03/2022 13:43:57",
+          "createdAt": "01/02/2022 13:43:21",
+          "updatedAt": "01/02/2022 13:43:57",
+          "opportunityType": "job",
+          "isDraft": false,
+          "isImpersonatedCreator": false
+        },
+        "relationships": {
+          "company": {
+            "data": {
+              "type": "company",
+              "id": "14868"
+            }
+          },
+          "opportunityWorkTypes": {
+            "data": [
+              {
+                "type": "opportunityWorkType",
+                "id": "335654"
+              }
+            ]
+          },
+          "country": {
+            "data": {
+              "type": "country",
+              "id": "56"
+            }
+          },
+          "city": {
+            "data": {
+              "type": "city",
+              "id": "1545"
+            }
+          },
+          "area": {
+            "data": null
+          },
+          "createdBy": {
+            "data": {
+              "type": "employerUser",
+              "id": "815495"
+            }
+          },
+          "opportunityFolderSetup": {
+            "data": [
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303452"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303453"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303454"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303455"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303456"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303457"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303458"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303459"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303460"
+              }
+            ]
+          }
+        },
+        "links": {
+          "self": "https://testing.wuzzuf.basharsys.com/api/opportunity/b04bbbe1-7471-4d53-96f7-64ffe4b9ab07",
+          "view": "jobs/p/zEQtNurGdYOO-asdfasdfasdf-hygfvbnjkytfgvbqq-New-Cairo-British-International-School-Cairo-Egypt"
+        },
+        "meta": {
+          "unreadStrongCount": 0,
+          "unreadHandpickedCount": 0,
+          "unreadInvitationsCount": 0,
+          "unreadApplicationsCount": 0,
+          "totalFreeApplicants": 0,
+          "applicationsCount": 0,
+          "opportunityUrl": "https://testing.wuzzuf.basharsys.com/jobs/p/zEQtNurGdYOO-asdfasdfasdf-hygfvbnjkytfgvbqq-New-Cairo-British-International-School-Cairo-Egypt"
+        }
+      },
+      {
+        "type": "opportunity",
+        "id": "2b900e63-107c-4df5-9a16-094d36e4438f",
+        "attributes": {
+          "jobType": "job",
+          "title": "asdfasdfasdf *hygfvbnjkytfgvb",
+          "description": "<p>Enter keywords including any related job titles, technologies, or keywords the candidate should have in his CV.</p><p>Enter keywords including any related job titles, technologies, or keywords the candidate should have in his CV.</p><p> </p>",
+          "gender": "No Preference",
+          "logo": null,
+          "views": 0,
+          "numVacancies": "1",
+          "experienceYears": "5-5",
+          "isConfidential": false,
+          "tempWorkingFromHome": false,
+          "salaryMin": 80000,
+          "salaryMax": 80000,
+          "salaryPeriod": "Per Month",
+          "hideSalary": false,
+          "isAutoPosted": false,
+          "slug": "yAx9Yh4KruvL-asdfasdfasdf-hygfvbnjkytfgvb-New-Cairo-British-International-School-Cairo-Egypt",
+          "isInternal": true,
+          "externalApplyLink": null,
+          "status": "Active",
+          "postedAt": "12/15/2021 18:36:07",
+          "expiresAt": "02/13/2022 18:36:07",
+          "createdAt": "12/15/2021 18:35:16",
+          "updatedAt": "12/15/2021 18:36:11",
+          "opportunityType": "job",
+          "isDraft": false,
+          "isImpersonatedCreator": true
+        },
+        "relationships": {
+          "company": {
+            "data": {
+              "type": "company",
+              "id": "14868"
+            }
+          },
+          "opportunityWorkTypes": {
+            "data": [
+              {
+                "type": "opportunityWorkType",
+                "id": "335619"
+              }
+            ]
+          },
+          "country": {
+            "data": {
+              "type": "country",
+              "id": "56"
+            }
+          },
+          "city": {
+            "data": {
+              "type": "city",
+              "id": "1545"
+            }
+          },
+          "area": {
+            "data": null
+          },
+          "createdBy": {
+            "data": {
+              "type": "employerUser",
+              "id": "815495"
+            }
+          },
+          "opportunityFolderSetup": {
+            "data": [
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303155"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303156"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303157"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303158"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303159"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303160"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303161"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303162"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2303163"
+              }
+            ]
+          }
+        },
+        "links": {
+          "self": "https://testing.wuzzuf.basharsys.com/api/opportunity/2b900e63-107c-4df5-9a16-094d36e4438f",
+          "view": "jobs/p/yAx9Yh4KruvL-asdfasdfasdf-hygfvbnjkytfgvb-New-Cairo-British-International-School-Cairo-Egypt"
+        },
+        "meta": {
+          "unreadStrongCount": 0,
+          "unreadHandpickedCount": 0,
+          "unreadInvitationsCount": 0,
+          "unreadApplicationsCount": 0,
+          "totalFreeApplicants": 0,
+          "applicationsCount": 0,
+          "opportunityUrl": "https://testing.wuzzuf.basharsys.com/jobs/p/yAx9Yh4KruvL-asdfasdfasdf-hygfvbnjkytfgvb-New-Cairo-British-International-School-Cairo-Egypt"
+        }
+      }
+    ],
+    "included": [
+      {
+        "type": "company",
+        "id": "14868",
+        "attributes": {
+          "uniqueId": "b366aea6-8ada-11ea-b92e-2206e62d0816",
+          "name": "New Cairo British International School ",
+          "legalName": "",
+          "logo": null,
+          "slug": "New-Cairo-British-International-School--Egypt-14868",
+          "description": "sss",
+          "specialties": [],
+          "website": null,
+          "facebookPage": null,
+          "twitterAccount": null,
+          "linkedinProfile": null,
+          "blog": null,
+          "onlinePresence": {
+            "facebook": null,
+            "twitter": null,
+            "linkedin": null,
+            "blog": null,
+            "website": null,
+            "instagram": null,
+            "youtube": null,
+            "vimeo": null,
+            "behance": null
+          },
+          "establishedYear": null,
+          "uniqueName": "New Cairo British International School  -w- 14868",
+          "taxId": "#123 456-789A",
+          "street": " fa5r el dien",
+          "buildingNumber": "5",
+          "area": "Maadi",
+          "publicStatus": {
+            "id": 1,
+            "name": "Verified"
+          },
+          "statusUpdatedAt": "11/12/2020 12:58:43",
+          "createdAt": "12/13/2015 11:28:31",
+          "perks": [
+            {
+              "id": 1,
+              "name": "medical insurance"
+            },
+            {
+              "id": 2,
+              "name": "social insurance"
+            },
+            {
+              "id": 7,
+              "name": "flexible hours"
+            },
+            {
+              "id": 8,
+              "name": "work from home"
+            }
+          ],
+          "isEligibleForFreemium": false,
+          "isFreeInternshipAllowed": true,
+          "isEligibleForLearning": false,
+          "isMultinational": false,
+          "isStartup": false,
+          "isBusinessEmailRegister": true,
+          "hasDocs": false,
+          "phone": "0236587458",
+          "extraPhone": null,
+          "companyProfileLastUpdate": "05/14/2022 19:46:11",
+          "companyPageFirstVisit": "01/24/2022 15:37:09"
+        },
+        "relationships": {
+          "workIndustries": {
+            "data": [
+              {
+                "type": "companyWorkIndustry",
+                "id": "32134"
+              }
+            ]
+          },
+          "country": {
+            "data": {
+              "type": "country",
+              "id": "56"
+            }
+          },
+          "city": {
+            "data": {
+              "type": "city",
+              "id": "1540"
+            }
+          },
+          "size": {
+            "data": {
+              "type": "companySize",
+              "id": "4"
+            }
+          },
+          "type": {
+            "data": {
+              "type": "companyType",
+              "id": "1"
+            }
+          },
+          "accountManager": {
+            "data": {
+              "type": "adminUser",
+              "id": "648"
+            }
+          },
+          "recruiter": {
+            "data": {
+              "type": "adminUser",
+              "id": "293"
+            }
+          },
+          "verificationAdmin": {
+            "data": null
+          },
+          "status": {
+            "data": {
+              "type": "lookupCompanyStatus",
+              "id": "1"
+            }
+          },
+          "approvalReason": {
+            "data": {
+              "type": "CompanyApprovalReason",
+              "id": "2843"
+            }
+          },
+          "referralSource": {
+            "data": null
+          }
+        },
+        "links": {
+          "defaultCoverUrl": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/company_covers/1129292056627feaab74606.jpeg",
+          "coverUrl": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/company_covers/thumbs/1129292056627feaab74606.jpeg",
+          "profile": "jobs/careers/New-Cairo-British-International-School--Egypt-14868"
+        }
+      },
+      {
+        "type": "workType",
+        "id": "1",
+        "attributes": {
+          "name": "full_time",
+          "displayedName": "Full Time",
+          "translations": null
+        },
+        "links": {
+          "browsePage": "a/Full-Time-Jobs-in-Egypt"
+        }
+      },
+      {
+        "type": "opportunityWorkType",
+        "id": "335722",
+        "relationships": {
+          "workType": {
+            "data": {
+              "type": "workType",
+              "id": "1"
+            }
+          }
+        }
+      },
+      {
+        "type": "country",
+        "id": "56",
+        "attributes": {
+          "name": "Egypt",
+          "iso2Code": "EG",
+          "translations": null
+        }
+      },
+      {
+        "type": "city",
+        "id": "1545",
+        "attributes": {
+          "name": "Cairo",
+          "translations": null,
+          "latitude": "30.05075900",
+          "longitude": "31.23383900"
+        },
+        "links": {
+          "browsePage": "a/Jobs-in-Cairo"
+        }
+      },
+      {
+        "type": "area",
+        "id": "36",
+        "attributes": {
+          "name": "Abbassia",
+          "translations": null,
+          "latitude": "30.07287200",
+          "longitude": "31.28520000"
+        },
+        "links": {
+          "browsePage": "a/Jobs-in-Abbassia"
+        }
+      },
+      {
+        "type": "employerUser",
+        "id": "815495",
+        "attributes": {
+          "uniqueId": "904c54aa-c5f3-11ea-bc82-96c1969b034f",
+          "email": "mai@wuzzuf.net",
+          "firstName": "Mai",
+          "middleName": null,
+          "lastName": "Metawie",
+          "birthDate": null,
+          "age": null,
+          "gender": null,
+          "photo": null,
+          "thumbnail": null,
+          "photoVersions": {
+            "thumbnail": null,
+            "small": null,
+            "xsmall": null
+          },
+          "postalCode": null,
+          "primaryPhone": "01000111111",
+          "otherPhone": "",
+          "joinedAt": "12/13/2015 11:28:31",
+          "lastLogin": "06/13/2022 12:37:58",
+          "lastUpdate": "07/28/2021 14:37:17",
+          "lastProfileUpdate": "07/28/2021 14:37:17"
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "2",
+        "attributes": {
+          "name": "Inbox",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304001",
+        "attributes": {
+          "name": "Inbox",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/23/2022 13:12:38"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "2"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "4",
+        "attributes": {
+          "name": "Shortlist 1",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304002",
+        "attributes": {
+          "name": "Ok",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/24/2022 17:06:09"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "4"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "5",
+        "attributes": {
+          "name": "Shortlist 2",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304003",
+        "attributes": {
+          "name": "Shortlisted",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/24/2022 17:06:06"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "5"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "6",
+        "attributes": {
+          "name": "Shortlist 3",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304004",
+        "attributes": {
+          "name": "--",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/24/2022 17:06:08"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "6"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "8",
+        "attributes": {
+          "name": "Hired",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304005",
+        "attributes": {
+          "name": "Hired",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/23/2022 13:12:38"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "8"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "10",
+        "attributes": {
+          "name": "Recommended",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304006",
+        "attributes": {
+          "name": "Recommended",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/23/2022 13:12:38"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "10"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "11",
+        "attributes": {
+          "name": "Handpicked",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304007",
+        "attributes": {
+          "name": "Handpicked",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/23/2022 13:12:38"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "11"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "13",
+        "attributes": {
+          "name": "Disqualified",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304008",
+        "attributes": {
+          "name": "Disqualified",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/23/2022 13:12:38"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "13"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "14",
+        "attributes": {
+          "name": "Non-matching",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304009",
+        "attributes": {
+          "name": "Non-matching",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/23/2022 13:12:38"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "14"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityWorkType",
+        "id": "335697",
+        "relationships": {
+          "workType": {
+            "data": {
+              "type": "workType",
+              "id": "1"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303785",
+        "attributes": {
+          "name": "Inbox",
+          "createdAt": "01/12/2022 11:17:39",
+          "updatedAt": "01/12/2022 11:17:39"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "2"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303786",
+        "attributes": {
+          "name": "Shortlist 1",
+          "createdAt": "01/12/2022 11:17:39",
+          "updatedAt": "01/12/2022 11:17:39"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "4"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303787",
+        "attributes": {
+          "name": "Shortlist 2",
+          "createdAt": "01/12/2022 11:17:39",
+          "updatedAt": "01/12/2022 11:17:39"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "5"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303788",
+        "attributes": {
+          "name": "Shortlist 3",
+          "createdAt": "01/12/2022 11:17:39",
+          "updatedAt": "01/12/2022 11:17:39"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "6"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303789",
+        "attributes": {
+          "name": "Hired",
+          "createdAt": "01/12/2022 11:17:39",
+          "updatedAt": "01/12/2022 11:17:39"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "8"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303790",
+        "attributes": {
+          "name": "Recommended",
+          "createdAt": "01/12/2022 11:17:39",
+          "updatedAt": "01/12/2022 11:17:39"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "10"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303791",
+        "attributes": {
+          "name": "Handpicked",
+          "createdAt": "01/12/2022 11:17:39",
+          "updatedAt": "01/12/2022 11:17:39"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "11"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303792",
+        "attributes": {
+          "name": "Disqualified",
+          "createdAt": "01/12/2022 11:17:39",
+          "updatedAt": "01/12/2022 11:17:39"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "13"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303793",
+        "attributes": {
+          "name": "Non-matching",
+          "createdAt": "01/12/2022 11:17:39",
+          "updatedAt": "01/12/2022 11:17:39"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "14"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityWorkType",
+        "id": "335660",
+        "relationships": {
+          "workType": {
+            "data": {
+              "type": "workType",
+              "id": "1"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303506",
+        "attributes": {
+          "name": "Inbox",
+          "createdAt": "01/09/2022 12:16:34",
+          "updatedAt": "01/09/2022 12:16:34"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "2"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303507",
+        "attributes": {
+          "name": "Shortlist 1",
+          "createdAt": "01/09/2022 12:16:34",
+          "updatedAt": "01/09/2022 12:16:34"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "4"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303508",
+        "attributes": {
+          "name": "Shortlist 2",
+          "createdAt": "01/09/2022 12:16:34",
+          "updatedAt": "01/09/2022 12:16:34"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "5"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303509",
+        "attributes": {
+          "name": "Shortlist 3",
+          "createdAt": "01/09/2022 12:16:34",
+          "updatedAt": "01/09/2022 12:16:34"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "6"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303510",
+        "attributes": {
+          "name": "Hired",
+          "createdAt": "01/09/2022 12:16:34",
+          "updatedAt": "01/09/2022 12:16:34"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "8"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303511",
+        "attributes": {
+          "name": "Recommended",
+          "createdAt": "01/09/2022 12:16:34",
+          "updatedAt": "01/09/2022 12:16:34"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "10"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303512",
+        "attributes": {
+          "name": "Handpicked",
+          "createdAt": "01/09/2022 12:16:34",
+          "updatedAt": "01/09/2022 12:16:34"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "11"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303513",
+        "attributes": {
+          "name": "Disqualified",
+          "createdAt": "01/09/2022 12:16:34",
+          "updatedAt": "01/09/2022 12:16:34"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "13"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303514",
+        "attributes": {
+          "name": "Non-matching",
+          "createdAt": "01/09/2022 12:16:34",
+          "updatedAt": "01/09/2022 12:16:34"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "14"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityWorkType",
+        "id": "335654",
+        "relationships": {
+          "workType": {
+            "data": {
+              "type": "workType",
+              "id": "1"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303452",
+        "attributes": {
+          "name": "Inbox",
+          "createdAt": "01/02/2022 13:43:21",
+          "updatedAt": "01/02/2022 13:43:21"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "2"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303453",
+        "attributes": {
+          "name": "Shortlist 1",
+          "createdAt": "01/02/2022 13:43:21",
+          "updatedAt": "01/02/2022 13:43:21"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "4"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303454",
+        "attributes": {
+          "name": "Shortlist 2",
+          "createdAt": "01/02/2022 13:43:21",
+          "updatedAt": "01/02/2022 13:43:21"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "5"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303455",
+        "attributes": {
+          "name": "Shortlist 3",
+          "createdAt": "01/02/2022 13:43:21",
+          "updatedAt": "01/02/2022 13:43:21"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "6"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303456",
+        "attributes": {
+          "name": "Hired",
+          "createdAt": "01/02/2022 13:43:21",
+          "updatedAt": "01/02/2022 13:43:21"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "8"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303457",
+        "attributes": {
+          "name": "Recommended",
+          "createdAt": "01/02/2022 13:43:21",
+          "updatedAt": "01/02/2022 13:43:21"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "10"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303458",
+        "attributes": {
+          "name": "Handpicked",
+          "createdAt": "01/02/2022 13:43:21",
+          "updatedAt": "01/02/2022 13:43:21"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "11"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303459",
+        "attributes": {
+          "name": "Disqualified",
+          "createdAt": "01/02/2022 13:43:21",
+          "updatedAt": "01/02/2022 13:43:21"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "13"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303460",
+        "attributes": {
+          "name": "Non-matching",
+          "createdAt": "01/02/2022 13:43:21",
+          "updatedAt": "01/02/2022 13:43:21"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "14"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityWorkType",
+        "id": "335619",
+        "relationships": {
+          "workType": {
+            "data": {
+              "type": "workType",
+              "id": "1"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303155",
+        "attributes": {
+          "name": "Inbox",
+          "createdAt": "12/15/2021 18:35:19",
+          "updatedAt": "12/15/2021 18:35:19"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "2"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303156",
+        "attributes": {
+          "name": "Shortlist 1",
+          "createdAt": "12/15/2021 18:35:19",
+          "updatedAt": "12/15/2021 18:35:19"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "4"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303157",
+        "attributes": {
+          "name": "Shortlist 2",
+          "createdAt": "12/15/2021 18:35:19",
+          "updatedAt": "12/15/2021 18:35:19"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "5"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303158",
+        "attributes": {
+          "name": "Shortlist 3",
+          "createdAt": "12/15/2021 18:35:19",
+          "updatedAt": "12/15/2021 18:35:19"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "6"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303159",
+        "attributes": {
+          "name": "Hired",
+          "createdAt": "12/15/2021 18:35:19",
+          "updatedAt": "12/15/2021 18:35:19"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "8"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303160",
+        "attributes": {
+          "name": "Recommended",
+          "createdAt": "12/15/2021 18:35:19",
+          "updatedAt": "12/15/2021 18:35:19"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "10"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303161",
+        "attributes": {
+          "name": "Handpicked",
+          "createdAt": "12/15/2021 18:35:19",
+          "updatedAt": "12/15/2021 18:35:19"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "11"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303162",
+        "attributes": {
+          "name": "Disqualified",
+          "createdAt": "12/15/2021 18:35:19",
+          "updatedAt": "12/15/2021 18:35:19"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "13"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2303163",
+        "attributes": {
+          "name": "Non-matching",
+          "createdAt": "12/15/2021 18:35:19",
+          "updatedAt": "12/15/2021 18:35:19"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "14"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "https://testing.wuzzuf.basharsys.com/api/employer/recent-shortlisted-apps?sort=-createdAt&include=employerUser,talentApplication.talentUser,talentApplication.lookupOpportunityFolder,talentApplication.applicationScore,talentApplication.opportunity.createdBy,talentApplication.opportunity.company,talentApplication.opportunity.opportunityWorkTypes.workType,talentApplication.opportunity.opportunityFolderSetup.lookupOpportunityFolder&page[offset]=0&page[limit]=40": {
+    "data": []
+  },
+  "https://testing.wuzzuf.basharsys.com/api/employer/recent-views?sort=-createdAt&include=talentUser,employerUser,talentApplication.opportunity.createdBy,talentApplication.opportunity.company,talentApplication.opportunity.opportunityWorkTypes.workType,talentApplication.opportunity.opportunityFolderSetup.lookupOpportunityFolder&page[offset]=0&page[limit]=40": {
+    "data": [
+      {
+        "type": "talentProfileView",
+        "id": "777746195",
+        "attributes": {
+          "createdAt": "06/13/2022 12:39:19",
+          "isLatest": true
+        },
+        "relationships": {
+          "talentUser": {
+            "data": {
+              "type": "user",
+              "id": "340855"
+            }
+          },
+          "employerUser": {
+            "data": {
+              "type": "employerUser",
+              "id": "815495"
+            }
+          },
+          "talentApplication": {
+            "data": {
+              "type": "talentApplication",
+              "id": "25533688"
+            }
+          }
+        }
+      }
+    ],
+    "included": [
+      {
+        "type": "user",
+        "id": "340855",
+        "attributes": {
+          "uniqueId": "8ff7c047-c5f3-11ea-bc82-96c1969b034f",
+          "email": "******",
+          "firstName": "Muhammad",
+          "middleName": "E.",
+          "lastName": "M.",
+          "birthDate": "01/27/1989 00:00:00",
+          "age": 33,
+          "gender": "male",
+          "photo": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/e0f3d23e3bf4f7f721b8b22f94b0e039.jpg",
+          "thumbnail": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_4a0154f57f052e14b203873ad2989407.jpg",
+          "photoVersions": {
+            "thumbnail": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_4a0154f57f052e14b203873ad2989407.jpg",
+            "small": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_4a0154f57f052e14b203873ad2989407.jpg",
+            "xsmall": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_4a0154f57f052e14b203873ad2989407.jpg"
+          },
+          "postalCode": "002",
+          "primaryPhone": "******",
+          "otherPhone": null,
+          "joinedAt": "03/22/2020 10:09:47",
+          "lastLogin": "11/04/2019 15:43:02",
+          "lastUpdate": "10/04/2019 01:08:14",
+          "lastProfileUpdate": "11/06/2019 19:17:52"
+        },
+        "meta": {
+          "isUnlocked": false,
+          "isAllowedToAccessContacts": false
+        }
+      },
+      {
+        "type": "employerUser",
+        "id": "815495",
+        "attributes": {
+          "uniqueId": "904c54aa-c5f3-11ea-bc82-96c1969b034f",
+          "email": "mai@wuzzuf.net",
+          "firstName": "Mai",
+          "middleName": null,
+          "lastName": "Metawie",
+          "birthDate": null,
+          "age": null,
+          "gender": null,
+          "photo": null,
+          "thumbnail": null,
+          "photoVersions": {
+            "thumbnail": null,
+            "small": null,
+            "xsmall": null
+          },
+          "postalCode": null,
+          "primaryPhone": "01000111111",
+          "otherPhone": "",
+          "joinedAt": "12/13/2015 11:28:31",
+          "lastLogin": "06/13/2022 12:37:58",
+          "lastUpdate": "07/28/2021 14:37:17",
+          "lastProfileUpdate": "07/28/2021 14:37:17"
+        }
+      },
+      {
+        "type": "company",
+        "id": "14868",
+        "attributes": {
+          "uniqueId": "b366aea6-8ada-11ea-b92e-2206e62d0816",
+          "name": "New Cairo British International School ",
+          "legalName": "",
+          "logo": null,
+          "slug": "New-Cairo-British-International-School--Egypt-14868",
+          "description": "sss",
+          "specialties": [],
+          "website": null,
+          "facebookPage": null,
+          "twitterAccount": null,
+          "linkedinProfile": null,
+          "blog": null,
+          "onlinePresence": {
+            "facebook": null,
+            "twitter": null,
+            "linkedin": null,
+            "blog": null,
+            "website": null,
+            "instagram": null,
+            "youtube": null,
+            "vimeo": null,
+            "behance": null
+          },
+          "establishedYear": null,
+          "uniqueName": "New Cairo British International School  -w- 14868",
+          "taxId": "#123 456-789A",
+          "street": " fa5r el dien",
+          "buildingNumber": "5",
+          "area": "Maadi",
+          "publicStatus": {
+            "id": 1,
+            "name": "Verified"
+          },
+          "statusUpdatedAt": "11/12/2020 12:58:43",
+          "createdAt": "12/13/2015 11:28:31",
+          "perks": [
+            {
+              "id": 1,
+              "name": "medical insurance"
+            },
+            {
+              "id": 2,
+              "name": "social insurance"
+            },
+            {
+              "id": 7,
+              "name": "flexible hours"
+            },
+            {
+              "id": 8,
+              "name": "work from home"
+            }
+          ],
+          "isEligibleForFreemium": false,
+          "isFreeInternshipAllowed": true,
+          "isEligibleForLearning": false,
+          "isMultinational": false,
+          "isStartup": false,
+          "isBusinessEmailRegister": true,
+          "hasDocs": false,
+          "phone": "0236587458",
+          "extraPhone": null,
+          "companyProfileLastUpdate": "05/14/2022 19:46:11",
+          "companyPageFirstVisit": "01/24/2022 15:37:09"
+        },
+        "relationships": {
+          "workIndustries": {
+            "data": [
+              {
+                "type": "companyWorkIndustry",
+                "id": "32134"
+              }
+            ]
+          },
+          "country": {
+            "data": {
+              "type": "country",
+              "id": "56"
+            }
+          },
+          "city": {
+            "data": {
+              "type": "city",
+              "id": "1540"
+            }
+          },
+          "size": {
+            "data": {
+              "type": "companySize",
+              "id": "4"
+            }
+          },
+          "type": {
+            "data": {
+              "type": "companyType",
+              "id": "1"
+            }
+          },
+          "accountManager": {
+            "data": {
+              "type": "adminUser",
+              "id": "648"
+            }
+          },
+          "recruiter": {
+            "data": {
+              "type": "adminUser",
+              "id": "293"
+            }
+          },
+          "verificationAdmin": {
+            "data": null
+          },
+          "status": {
+            "data": {
+              "type": "lookupCompanyStatus",
+              "id": "1"
+            }
+          },
+          "approvalReason": {
+            "data": {
+              "type": "CompanyApprovalReason",
+              "id": "2843"
+            }
+          },
+          "referralSource": {
+            "data": null
+          }
+        },
+        "links": {
+          "defaultCoverUrl": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/company_covers/1129292056627feaab74606.jpeg",
+          "coverUrl": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/company_covers/thumbs/1129292056627feaab74606.jpeg",
+          "profile": "jobs/careers/New-Cairo-British-International-School--Egypt-14868"
+        }
+      },
+      {
+        "type": "workType",
+        "id": "1",
+        "attributes": {
+          "name": "full_time",
+          "displayedName": "Full Time",
+          "translations": null
+        },
+        "links": {
+          "browsePage": "a/Full-Time-Jobs-in-Egypt"
+        }
+      },
+      {
+        "type": "opportunityWorkType",
+        "id": "335722",
+        "relationships": {
+          "workType": {
+            "data": {
+              "type": "workType",
+              "id": "1"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "2",
+        "attributes": {
+          "name": "Inbox",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304001",
+        "attributes": {
+          "name": "Inbox",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/23/2022 13:12:38"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "2"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "4",
+        "attributes": {
+          "name": "Shortlist 1",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304002",
+        "attributes": {
+          "name": "Ok",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/24/2022 17:06:09"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "4"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "5",
+        "attributes": {
+          "name": "Shortlist 2",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304003",
+        "attributes": {
+          "name": "Shortlisted",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/24/2022 17:06:06"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "5"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "6",
+        "attributes": {
+          "name": "Shortlist 3",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304004",
+        "attributes": {
+          "name": "--",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/24/2022 17:06:08"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "6"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "8",
+        "attributes": {
+          "name": "Hired",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304005",
+        "attributes": {
+          "name": "Hired",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/23/2022 13:12:38"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "8"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "10",
+        "attributes": {
+          "name": "Recommended",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304006",
+        "attributes": {
+          "name": "Recommended",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/23/2022 13:12:38"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "10"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "11",
+        "attributes": {
+          "name": "Handpicked",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304007",
+        "attributes": {
+          "name": "Handpicked",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/23/2022 13:12:38"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "11"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "13",
+        "attributes": {
+          "name": "Disqualified",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304008",
+        "attributes": {
+          "name": "Disqualified",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/23/2022 13:12:38"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "13"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "14",
+        "attributes": {
+          "name": "Non-matching",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304009",
+        "attributes": {
+          "name": "Non-matching",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/23/2022 13:12:38"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "14"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunity",
+        "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f",
+        "attributes": {
+          "jobType": "job",
+          "title": "Product Designer",
+          "description": "<p>sdaasdadasdasasdaasdadasdasasdaasdadasdasasdaasdadasdasasdaasdadasdasasdaasdadasdasasdaasdadasdasasdaasdadasdasasdaasdadasdasa</p>",
+          "gender": "No Preference",
+          "logo": null,
+          "views": 0,
+          "numVacancies": "1",
+          "experienceYears": "2-5",
+          "isConfidential": false,
+          "tempWorkingFromHome": false,
+          "salaryMin": 10000,
+          "salaryMax": 20000,
+          "salaryPeriod": "Per Month",
+          "hideSalary": true,
+          "isAutoPosted": false,
+          "slug": "Lsc34ET3CfGz-Product-Designer-New-Cairo-British-International-School-Cairo-Egypt",
+          "isInternal": true,
+          "externalApplyLink": null,
+          "status": "Active",
+          "postedAt": "03/23/2022 13:13:20",
+          "expiresAt": "05/22/2022 13:13:20",
+          "createdAt": "03/23/2022 13:12:37",
+          "updatedAt": "03/23/2022 13:13:20",
+          "opportunityType": "job",
+          "isDraft": false,
+          "isImpersonatedCreator": false
+        },
+        "relationships": {
+          "company": {
+            "data": {
+              "type": "company",
+              "id": "14868"
+            }
+          },
+          "opportunityWorkTypes": {
+            "data": [
+              {
+                "type": "opportunityWorkType",
+                "id": "335722"
+              }
+            ]
+          },
+          "createdBy": {
+            "data": {
+              "type": "employerUser",
+              "id": "815495"
+            }
+          },
+          "opportunityFolderSetup": {
+            "data": [
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304001"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304002"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304003"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304004"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304005"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304006"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304007"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304008"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304009"
+              }
+            ]
+          }
+        },
+        "links": {
+          "view": "jobs/p/Lsc34ET3CfGz-Product-Designer-New-Cairo-British-International-School-Cairo-Egypt"
+        }
+      },
+      {
+        "type": "talentApplication",
+        "id": "25533688",
+        "attributes": {
+          "jobId": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f",
+          "createdAt": "03/23/2022 13:13:32",
+          "updatedAt": "06/13/2022 12:39:19",
+          "isApplied": false,
+          "appliedAt": null
+        },
+        "relationships": {
+          "talentUser": {
+            "data": {
+              "type": "user",
+              "id": "340855"
+            }
+          },
+          "opportunity": {
+            "data": {
+              "type": "opportunity",
+              "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f"
+            }
+          },
+          "job": {
+            "data": {
+              "type": "job",
+              "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f"
+            }
+          },
+          "applicationState": {
+            "data": {
+              "type": "lookupApplicationState",
+              "id": "2"
+            }
+          },
+          "answers": {
+            "data": []
+          },
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "10"
+            }
+          },
+          "applicationScore": {
+            "data": {
+              "type": "applicationScore",
+              "id": "25526411"
+            }
+          },
+          "applicationMovements": {
+            "data": [
+              {
+                "type": "applicationMovement",
+                "id": "30944829"
+              }
+            ]
+          },
+          "views": {
+            "data": [
+              {
+                "type": "talentProfileView",
+                "id": "777746195"
+              }
+            ]
+          },
+          "notes": {
+            "data": []
+          }
+        },
+        "meta": {
+          "isFreeUnlocked": false,
+          "isSharedJobApplication": false,
+          "isUnlocked": false
+        }
+      }
+    ]
+  },
+  "https://testing.wuzzuf.basharsys.com/api/employer/recent-disqualified-apps?sort=-createdAt&include=employerUser,talentApplication.talentUser,talentApplication.lookupOpportunityFolder,talentApplication.applicationScore,talentApplication.opportunity.createdBy,talentApplication.opportunity.company,talentApplication.opportunity.opportunityWorkTypes.workType,talentApplication.opportunity.opportunityFolderSetup.lookupOpportunityFolder&page[offset]=0&page[limit]=40": {
+    "data": []
+  },
+  "https://testing.wuzzuf.basharsys.com/api/employer/unread-invited-apps?sort=-appliedAt&include=talentUser,lookupOpportunityFolder,opportunity,opportunity.company,opportunity.createdBy,opportunity.opportunityWorkTypes.workType,opportunity.opportunityFolderSetup.lookupOpportunityFolder&page[offset]=0&page[limit]=40": {
+    "data": []
+  },
+  "https://testing.wuzzuf.basharsys.com/api/employer/unread-suggested-apps?sort=-createdAt&include=employerUser,talentApplication.talentUser,talentApplication.lookupOpportunityFolder,talentApplication.applicationScore,talentApplication.opportunity.createdBy,talentApplication.opportunity.company,talentApplication.opportunity.opportunityWorkTypes.workType,talentApplication.opportunity.opportunityFolderSetup.lookupOpportunityFolder&page[offset]=0&page[limit]=40": {
+    "data": [
+      {
+        "type": "applicationMovement",
+        "id": "30944830",
+        "attributes": {
+          "message": null,
+          "isLatest": true,
+          "isImpersonated": true,
+          "createdAt": "03/23/2022 13:13:32",
+          "updatedAt": "03/23/2022 13:13:32"
+        },
+        "relationships": {
+          "talentApplication": {
+            "data": {
+              "type": "talentApplication",
+              "id": "25533689"
+            }
+          },
+          "employerUser": {
+            "data": null
+          }
+        },
+        "links": {
+          "self": "https://testing.wuzzuf.basharsys.com/api/applicationMovement/30944830"
+        }
+      },
+      {
+        "type": "applicationMovement",
+        "id": "30944826",
+        "attributes": {
+          "message": null,
+          "isLatest": true,
+          "isImpersonated": true,
+          "createdAt": "03/23/2022 13:13:31",
+          "updatedAt": "03/23/2022 13:13:31"
+        },
+        "relationships": {
+          "talentApplication": {
+            "data": {
+              "type": "talentApplication",
+              "id": "25533685"
+            }
+          },
+          "employerUser": {
+            "data": null
+          }
+        },
+        "links": {
+          "self": "https://testing.wuzzuf.basharsys.com/api/applicationMovement/30944826"
+        }
+      },
+      {
+        "type": "applicationMovement",
+        "id": "30944827",
+        "attributes": {
+          "message": null,
+          "isLatest": true,
+          "isImpersonated": true,
+          "createdAt": "03/23/2022 13:13:31",
+          "updatedAt": "03/23/2022 13:13:31"
+        },
+        "relationships": {
+          "talentApplication": {
+            "data": {
+              "type": "talentApplication",
+              "id": "25533686"
+            }
+          },
+          "employerUser": {
+            "data": null
+          }
+        },
+        "links": {
+          "self": "https://testing.wuzzuf.basharsys.com/api/applicationMovement/30944827"
+        }
+      },
+      {
+        "type": "applicationMovement",
+        "id": "30944828",
+        "attributes": {
+          "message": null,
+          "isLatest": true,
+          "isImpersonated": true,
+          "createdAt": "03/23/2022 13:13:31",
+          "updatedAt": "03/23/2022 13:13:31"
+        },
+        "relationships": {
+          "talentApplication": {
+            "data": {
+              "type": "talentApplication",
+              "id": "25533687"
+            }
+          },
+          "employerUser": {
+            "data": null
+          }
+        },
+        "links": {
+          "self": "https://testing.wuzzuf.basharsys.com/api/applicationMovement/30944828"
+        }
+      },
+      {
+        "type": "applicationMovement",
+        "id": "30944824",
+        "attributes": {
+          "message": null,
+          "isLatest": true,
+          "isImpersonated": true,
+          "createdAt": "03/23/2022 13:13:30",
+          "updatedAt": "03/23/2022 13:13:30"
+        },
+        "relationships": {
+          "talentApplication": {
+            "data": {
+              "type": "talentApplication",
+              "id": "25533683"
+            }
+          },
+          "employerUser": {
+            "data": null
+          }
+        },
+        "links": {
+          "self": "https://testing.wuzzuf.basharsys.com/api/applicationMovement/30944824"
+        }
+      },
+      {
+        "type": "applicationMovement",
+        "id": "30944825",
+        "attributes": {
+          "message": null,
+          "isLatest": true,
+          "isImpersonated": true,
+          "createdAt": "03/23/2022 13:13:30",
+          "updatedAt": "03/23/2022 13:13:30"
+        },
+        "relationships": {
+          "talentApplication": {
+            "data": {
+              "type": "talentApplication",
+              "id": "25533684"
+            }
+          },
+          "employerUser": {
+            "data": null
+          }
+        },
+        "links": {
+          "self": "https://testing.wuzzuf.basharsys.com/api/applicationMovement/30944825"
+        }
+      },
+      {
+        "type": "applicationMovement",
+        "id": "30944823",
+        "attributes": {
+          "message": null,
+          "isLatest": true,
+          "isImpersonated": true,
+          "createdAt": "03/23/2022 13:13:29",
+          "updatedAt": "03/23/2022 13:13:29"
+        },
+        "relationships": {
+          "talentApplication": {
+            "data": {
+              "type": "talentApplication",
+              "id": "25533682"
+            }
+          },
+          "employerUser": {
+            "data": null
+          }
+        },
+        "links": {
+          "self": "https://testing.wuzzuf.basharsys.com/api/applicationMovement/30944823"
+        }
+      },
+      {
+        "type": "applicationMovement",
+        "id": "30944822",
+        "attributes": {
+          "message": null,
+          "isLatest": true,
+          "isImpersonated": true,
+          "createdAt": "03/23/2022 13:13:28",
+          "updatedAt": "03/23/2022 13:13:28"
+        },
+        "relationships": {
+          "talentApplication": {
+            "data": {
+              "type": "talentApplication",
+              "id": "25533681"
+            }
+          },
+          "employerUser": {
+            "data": null
+          }
+        },
+        "links": {
+          "self": "https://testing.wuzzuf.basharsys.com/api/applicationMovement/30944822"
+        }
+      },
+      {
+        "type": "applicationMovement",
+        "id": "30944821",
+        "attributes": {
+          "message": null,
+          "isLatest": true,
+          "isImpersonated": true,
+          "createdAt": "03/23/2022 13:13:27",
+          "updatedAt": "03/23/2022 13:13:27"
+        },
+        "relationships": {
+          "talentApplication": {
+            "data": {
+              "type": "talentApplication",
+              "id": "25533680"
+            }
+          },
+          "employerUser": {
+            "data": null
+          }
+        },
+        "links": {
+          "self": "https://testing.wuzzuf.basharsys.com/api/applicationMovement/30944821"
+        }
+      },
+      {
+        "type": "applicationMovement",
+        "id": "30944693",
+        "attributes": {
+          "message": null,
+          "isLatest": true,
+          "isImpersonated": false,
+          "createdAt": "06/28/2021 11:46:03",
+          "updatedAt": "06/28/2021 11:46:03"
+        },
+        "relationships": {
+          "talentApplication": {
+            "data": {
+              "type": "talentApplication",
+              "id": "25533556"
+            }
+          },
+          "employerUser": {
+            "data": null
+          }
+        },
+        "links": {
+          "self": "https://testing.wuzzuf.basharsys.com/api/applicationMovement/30944693"
+        }
+      }
+    ],
+    "included": [
+      {
+        "type": "user",
+        "id": "163",
+        "attributes": {
+          "uniqueId": "8fd99544-c5f3-11ea-bc82-96c1969b034f",
+          "email": "******",
+          "firstName": "Omar",
+          "middleName": ".",
+          "lastName": "H.",
+          "birthDate": "11/24/1997 00:00:00",
+          "age": 24,
+          "gender": "male",
+          "photo": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/b0bf296cb2352e0b26c31ba99f77e4f7.jpeg",
+          "thumbnail": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_b0bf296cb2352e0b26c31ba99f77e4f7.jpeg",
+          "photoVersions": {
+            "thumbnail": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_b0bf296cb2352e0b26c31ba99f77e4f7.jpeg",
+            "small": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_b0bf296cb2352e0b26c31ba99f77e4f7.jpeg",
+            "xsmall": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_b0bf296cb2352e0b26c31ba99f77e4f7.jpeg"
+          },
+          "postalCode": null,
+          "primaryPhone": "******",
+          "otherPhone": null,
+          "joinedAt": "03/22/2020 10:09:47",
+          "lastLogin": "02/09/2022 10:57:02",
+          "lastUpdate": "03/07/2021 13:05:25",
+          "lastProfileUpdate": "02/09/2022 10:57:52"
+        },
+        "meta": {
+          "isUnlocked": false,
+          "isAllowedToAccessContacts": false
+        }
+      },
+      {
+        "type": "company",
+        "id": "14868",
+        "attributes": {
+          "uniqueId": "b366aea6-8ada-11ea-b92e-2206e62d0816",
+          "name": "New Cairo British International School ",
+          "legalName": "",
+          "logo": null,
+          "slug": "New-Cairo-British-International-School--Egypt-14868",
+          "description": "sss",
+          "specialties": [],
+          "website": null,
+          "facebookPage": null,
+          "twitterAccount": null,
+          "linkedinProfile": null,
+          "blog": null,
+          "onlinePresence": {
+            "facebook": null,
+            "twitter": null,
+            "linkedin": null,
+            "blog": null,
+            "website": null,
+            "instagram": null,
+            "youtube": null,
+            "vimeo": null,
+            "behance": null
+          },
+          "establishedYear": null,
+          "uniqueName": "New Cairo British International School  -w- 14868",
+          "taxId": "#123 456-789A",
+          "street": " fa5r el dien",
+          "buildingNumber": "5",
+          "area": "Maadi",
+          "publicStatus": {
+            "id": 1,
+            "name": "Verified"
+          },
+          "statusUpdatedAt": "11/12/2020 12:58:43",
+          "createdAt": "12/13/2015 11:28:31",
+          "perks": [
+            {
+              "id": 1,
+              "name": "medical insurance"
+            },
+            {
+              "id": 2,
+              "name": "social insurance"
+            },
+            {
+              "id": 7,
+              "name": "flexible hours"
+            },
+            {
+              "id": 8,
+              "name": "work from home"
+            }
+          ],
+          "isEligibleForFreemium": false,
+          "isFreeInternshipAllowed": true,
+          "isEligibleForLearning": false,
+          "isMultinational": false,
+          "isStartup": false,
+          "isBusinessEmailRegister": true,
+          "hasDocs": false,
+          "phone": "0236587458",
+          "extraPhone": null,
+          "companyProfileLastUpdate": "05/14/2022 19:46:11",
+          "companyPageFirstVisit": "01/24/2022 15:37:09"
+        },
+        "relationships": {
+          "workIndustries": {
+            "data": [
+              {
+                "type": "companyWorkIndustry",
+                "id": "32134"
+              }
+            ]
+          },
+          "country": {
+            "data": {
+              "type": "country",
+              "id": "56"
+            }
+          },
+          "city": {
+            "data": {
+              "type": "city",
+              "id": "1540"
+            }
+          },
+          "size": {
+            "data": {
+              "type": "companySize",
+              "id": "4"
+            }
+          },
+          "type": {
+            "data": {
+              "type": "companyType",
+              "id": "1"
+            }
+          },
+          "accountManager": {
+            "data": {
+              "type": "adminUser",
+              "id": "648"
+            }
+          },
+          "recruiter": {
+            "data": {
+              "type": "adminUser",
+              "id": "293"
+            }
+          },
+          "verificationAdmin": {
+            "data": null
+          },
+          "status": {
+            "data": {
+              "type": "lookupCompanyStatus",
+              "id": "1"
+            }
+          },
+          "approvalReason": {
+            "data": {
+              "type": "CompanyApprovalReason",
+              "id": "2843"
+            }
+          },
+          "referralSource": {
+            "data": null
+          }
+        },
+        "links": {
+          "defaultCoverUrl": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/company_covers/1129292056627feaab74606.jpeg",
+          "coverUrl": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/company_covers/thumbs/1129292056627feaab74606.jpeg",
+          "profile": "jobs/careers/New-Cairo-British-International-School--Egypt-14868"
+        }
+      },
+      {
+        "type": "workType",
+        "id": "1",
+        "attributes": {
+          "name": "full_time",
+          "displayedName": "Full Time",
+          "translations": null
+        },
+        "links": {
+          "browsePage": "a/Full-Time-Jobs-in-Egypt"
+        }
+      },
+      {
+        "type": "opportunityWorkType",
+        "id": "335722",
+        "relationships": {
+          "workType": {
+            "data": {
+              "type": "workType",
+              "id": "1"
+            }
+          }
+        }
+      },
+      {
+        "type": "employerUser",
+        "id": "815495",
+        "attributes": {
+          "uniqueId": "904c54aa-c5f3-11ea-bc82-96c1969b034f",
+          "email": "mai@wuzzuf.net",
+          "firstName": "Mai",
+          "middleName": null,
+          "lastName": "Metawie",
+          "birthDate": null,
+          "age": null,
+          "gender": null,
+          "photo": null,
+          "thumbnail": null,
+          "photoVersions": {
+            "thumbnail": null,
+            "small": null,
+            "xsmall": null
+          },
+          "postalCode": null,
+          "primaryPhone": "01000111111",
+          "otherPhone": "",
+          "joinedAt": "12/13/2015 11:28:31",
+          "lastLogin": "06/13/2022 12:37:58",
+          "lastUpdate": "07/28/2021 14:37:17",
+          "lastProfileUpdate": "07/28/2021 14:37:17"
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "2",
+        "attributes": {
+          "name": "Inbox",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304001",
+        "attributes": {
+          "name": "Inbox",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/23/2022 13:12:38"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "2"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "4",
+        "attributes": {
+          "name": "Shortlist 1",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304002",
+        "attributes": {
+          "name": "Ok",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/24/2022 17:06:09"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "4"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "5",
+        "attributes": {
+          "name": "Shortlist 2",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304003",
+        "attributes": {
+          "name": "Shortlisted",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/24/2022 17:06:06"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "5"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "6",
+        "attributes": {
+          "name": "Shortlist 3",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304004",
+        "attributes": {
+          "name": "--",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/24/2022 17:06:08"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "6"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "8",
+        "attributes": {
+          "name": "Hired",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304005",
+        "attributes": {
+          "name": "Hired",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/23/2022 13:12:38"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "8"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "10",
+        "attributes": {
+          "name": "Recommended",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304006",
+        "attributes": {
+          "name": "Recommended",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/23/2022 13:12:38"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "10"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "11",
+        "attributes": {
+          "name": "Handpicked",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304007",
+        "attributes": {
+          "name": "Handpicked",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/23/2022 13:12:38"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "11"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "13",
+        "attributes": {
+          "name": "Disqualified",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304008",
+        "attributes": {
+          "name": "Disqualified",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/23/2022 13:12:38"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "13"
+            }
+          }
+        }
+      },
+      {
+        "type": "lookupOpportunityFolder",
+        "id": "14",
+        "attributes": {
+          "name": "Non-matching",
+          "order": true
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2304009",
+        "attributes": {
+          "name": "Non-matching",
+          "createdAt": "03/23/2022 13:12:38",
+          "updatedAt": "03/23/2022 13:12:38"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "14"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunity",
+        "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f",
+        "attributes": {
+          "jobType": "job",
+          "title": "Product Designer",
+          "description": "<p>sdaasdadasdasasdaasdadasdasasdaasdadasdasasdaasdadasdasasdaasdadasdasasdaasdadasdasasdaasdadasdasasdaasdadasdasasdaasdadasdasa</p>",
+          "gender": "No Preference",
+          "logo": null,
+          "views": 0,
+          "numVacancies": "1",
+          "experienceYears": "2-5",
+          "isConfidential": false,
+          "tempWorkingFromHome": false,
+          "salaryMin": 10000,
+          "salaryMax": 20000,
+          "salaryPeriod": "Per Month",
+          "hideSalary": true,
+          "isAutoPosted": false,
+          "slug": "Lsc34ET3CfGz-Product-Designer-New-Cairo-British-International-School-Cairo-Egypt",
+          "isInternal": true,
+          "externalApplyLink": null,
+          "status": "Active",
+          "postedAt": "03/23/2022 13:13:20",
+          "expiresAt": "05/22/2022 13:13:20",
+          "createdAt": "03/23/2022 13:12:37",
+          "updatedAt": "03/23/2022 13:13:20",
+          "opportunityType": "job",
+          "isDraft": false,
+          "isImpersonatedCreator": false
+        },
+        "relationships": {
+          "company": {
+            "data": {
+              "type": "company",
+              "id": "14868"
+            }
+          },
+          "opportunityWorkTypes": {
+            "data": [
+              {
+                "type": "opportunityWorkType",
+                "id": "335722"
+              }
+            ]
+          },
+          "createdBy": {
+            "data": {
+              "type": "employerUser",
+              "id": "815495"
+            }
+          },
+          "opportunityFolderSetup": {
+            "data": [
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304001"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304002"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304003"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304004"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304005"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304006"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304007"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304008"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2304009"
+              }
+            ]
+          }
+        },
+        "links": {
+          "view": "jobs/p/Lsc34ET3CfGz-Product-Designer-New-Cairo-British-International-School-Cairo-Egypt"
+        }
+      },
+      {
+        "type": "applicationScore",
+        "id": "25526412",
+        "attributes": {
+          "totalScore": 63.8554
+        }
+      },
+      {
+        "type": "talentApplication",
+        "id": "25533689",
+        "attributes": {
+          "jobId": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f",
+          "createdAt": "03/23/2022 13:13:32",
+          "updatedAt": "03/23/2022 13:13:32",
+          "isApplied": false,
+          "appliedAt": null
+        },
+        "relationships": {
+          "talentUser": {
+            "data": {
+              "type": "user",
+              "id": "163"
+            }
+          },
+          "opportunity": {
+            "data": {
+              "type": "opportunity",
+              "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f"
+            }
+          },
+          "job": {
+            "data": {
+              "type": "job",
+              "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f"
+            }
+          },
+          "applicationState": {
+            "data": {
+              "type": "lookupApplicationState",
+              "id": "2"
+            }
+          },
+          "answers": {
+            "data": []
+          },
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "10"
+            }
+          },
+          "applicationScore": {
+            "data": {
+              "type": "applicationScore",
+              "id": "25526412"
+            }
+          },
+          "applicationMovements": {
+            "data": [
+              {
+                "type": "applicationMovement",
+                "id": "30944830"
+              }
+            ]
+          },
+          "views": {
+            "data": []
+          },
+          "notes": {
+            "data": []
+          }
+        },
+        "meta": {
+          "isFreeUnlocked": false,
+          "isSharedJobApplication": false,
+          "isUnlocked": false
+        }
+      },
+      {
+        "type": "user",
+        "id": "10792",
+        "attributes": {
+          "uniqueId": "8fdb274d-c5f3-11ea-bc82-96c1969b034f",
+          "email": "******",
+          "firstName": "gamal",
+          "middleName": "M.",
+          "lastName": "m.",
+          "birthDate": "01/01/1986 00:00:00",
+          "age": 36,
+          "gender": "male",
+          "photo": null,
+          "thumbnail": null,
+          "photoVersions": {
+            "thumbnail": null,
+            "small": null,
+            "xsmall": null
+          },
+          "postalCode": "11345",
+          "primaryPhone": "******",
+          "otherPhone": "******",
+          "joinedAt": "09/07/2011 13:10:20",
+          "lastLogin": "09/12/2019 12:18:13",
+          "lastUpdate": "02/24/2021 11:02:58",
+          "lastProfileUpdate": "02/24/2021 11:02:58"
+        },
+        "meta": {
+          "isUnlocked": false,
+          "isAllowedToAccessContacts": false
+        }
+      },
+      {
+        "type": "applicationScore",
+        "id": "25526408",
+        "attributes": {
+          "totalScore": 67.9303
+        }
+      },
+      {
+        "type": "talentApplication",
+        "id": "25533685",
+        "attributes": {
+          "jobId": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f",
+          "createdAt": "03/23/2022 13:13:31",
+          "updatedAt": "03/23/2022 13:13:31",
+          "isApplied": false,
+          "appliedAt": null
+        },
+        "relationships": {
+          "talentUser": {
+            "data": {
+              "type": "user",
+              "id": "10792"
+            }
+          },
+          "opportunity": {
+            "data": {
+              "type": "opportunity",
+              "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f"
+            }
+          },
+          "job": {
+            "data": {
+              "type": "job",
+              "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f"
+            }
+          },
+          "applicationState": {
+            "data": {
+              "type": "lookupApplicationState",
+              "id": "2"
+            }
+          },
+          "answers": {
+            "data": []
+          },
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "10"
+            }
+          },
+          "applicationScore": {
+            "data": {
+              "type": "applicationScore",
+              "id": "25526408"
+            }
+          },
+          "applicationMovements": {
+            "data": [
+              {
+                "type": "applicationMovement",
+                "id": "30944826"
+              }
+            ]
+          },
+          "views": {
+            "data": []
+          },
+          "notes": {
+            "data": []
+          }
+        },
+        "meta": {
+          "isFreeUnlocked": false,
+          "isSharedJobApplication": false,
+          "isUnlocked": false
+        }
+      },
+      {
+        "type": "user",
+        "id": "1540786",
+        "attributes": {
+          "uniqueId": "90e4388b-c5f3-11ea-bc82-96c1969b034f",
+          "email": "******",
+          "firstName": "ahmed",
+          "middleName": ".",
+          "lastName": "f.",
+          "birthDate": "03/02/1994 00:00:00",
+          "age": 28,
+          "gender": "male",
+          "photo": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/3c4d2d7bbbaf45399f8584da855e7d10.jpg",
+          "thumbnail": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_64dd1772139f18a3a38f3dbf0e6d3659.jpg",
+          "photoVersions": {
+            "thumbnail": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_64dd1772139f18a3a38f3dbf0e6d3659.jpg",
+            "small": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_64dd1772139f18a3a38f3dbf0e6d3659.jpg",
+            "xsmall": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_64dd1772139f18a3a38f3dbf0e6d3659.jpg"
+          },
+          "postalCode": null,
+          "primaryPhone": "******",
+          "otherPhone": "******",
+          "joinedAt": "01/09/2018 20:21:05",
+          "lastLogin": "12/04/2019 08:01:43",
+          "lastUpdate": "02/23/2021 14:24:28",
+          "lastProfileUpdate": "02/23/2021 14:24:28"
+        },
+        "meta": {
+          "isUnlocked": false,
+          "isAllowedToAccessContacts": false
+        }
+      },
+      {
+        "type": "applicationScore",
+        "id": "25526409",
+        "attributes": {
+          "totalScore": 66.7865
+        }
+      },
+      {
+        "type": "talentApplication",
+        "id": "25533686",
+        "attributes": {
+          "jobId": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f",
+          "createdAt": "03/23/2022 13:13:31",
+          "updatedAt": "03/23/2022 13:13:31",
+          "isApplied": false,
+          "appliedAt": null
+        },
+        "relationships": {
+          "talentUser": {
+            "data": {
+              "type": "user",
+              "id": "1540786"
+            }
+          },
+          "opportunity": {
+            "data": {
+              "type": "opportunity",
+              "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f"
+            }
+          },
+          "job": {
+            "data": {
+              "type": "job",
+              "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f"
+            }
+          },
+          "applicationState": {
+            "data": {
+              "type": "lookupApplicationState",
+              "id": "2"
+            }
+          },
+          "answers": {
+            "data": []
+          },
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "10"
+            }
+          },
+          "applicationScore": {
+            "data": {
+              "type": "applicationScore",
+              "id": "25526409"
+            }
+          },
+          "applicationMovements": {
+            "data": [
+              {
+                "type": "applicationMovement",
+                "id": "30944827"
+              }
+            ]
+          },
+          "views": {
+            "data": []
+          },
+          "notes": {
+            "data": []
+          }
+        },
+        "meta": {
+          "isFreeUnlocked": false,
+          "isSharedJobApplication": false,
+          "isUnlocked": false
+        }
+      },
+      {
+        "type": "user",
+        "id": "553120",
+        "attributes": {
+          "uniqueId": "90238db0-c5f3-11ea-bc82-96c1969b034f",
+          "email": "******",
+          "firstName": "Yahia",
+          "middleName": "A.",
+          "lastName": "A.",
+          "birthDate": "11/09/1989 00:00:00",
+          "age": 32,
+          "gender": "male",
+          "photo": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/f8fd232b6c69c4471bc52b3231310ac3.jpg",
+          "thumbnail": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_aeefe790aa9ae6632684de5dfc61f10d.jpg",
+          "photoVersions": {
+            "thumbnail": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_aeefe790aa9ae6632684de5dfc61f10d.jpg",
+            "small": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_aeefe790aa9ae6632684de5dfc61f10d.jpg",
+            "xsmall": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_aeefe790aa9ae6632684de5dfc61f10d.jpg"
+          },
+          "postalCode": null,
+          "primaryPhone": "******",
+          "otherPhone": "******",
+          "joinedAt": "02/11/2015 19:46:19",
+          "lastLogin": "12/08/2019 01:58:54",
+          "lastUpdate": "02/24/2021 11:03:46",
+          "lastProfileUpdate": "02/24/2021 11:03:46"
+        },
+        "meta": {
+          "isUnlocked": false,
+          "isAllowedToAccessContacts": false
+        }
+      },
+      {
+        "type": "applicationScore",
+        "id": "25526410",
+        "attributes": {
+          "totalScore": 65.7582
+        }
+      },
+      {
+        "type": "talentApplication",
+        "id": "25533687",
+        "attributes": {
+          "jobId": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f",
+          "createdAt": "03/23/2022 13:13:31",
+          "updatedAt": "03/23/2022 13:13:31",
+          "isApplied": false,
+          "appliedAt": null
+        },
+        "relationships": {
+          "talentUser": {
+            "data": {
+              "type": "user",
+              "id": "553120"
+            }
+          },
+          "opportunity": {
+            "data": {
+              "type": "opportunity",
+              "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f"
+            }
+          },
+          "job": {
+            "data": {
+              "type": "job",
+              "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f"
+            }
+          },
+          "applicationState": {
+            "data": {
+              "type": "lookupApplicationState",
+              "id": "2"
+            }
+          },
+          "answers": {
+            "data": []
+          },
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "10"
+            }
+          },
+          "applicationScore": {
+            "data": {
+              "type": "applicationScore",
+              "id": "25526410"
+            }
+          },
+          "applicationMovements": {
+            "data": [
+              {
+                "type": "applicationMovement",
+                "id": "30944828"
+              }
+            ]
+          },
+          "views": {
+            "data": []
+          },
+          "notes": {
+            "data": []
+          }
+        },
+        "meta": {
+          "isFreeUnlocked": false,
+          "isSharedJobApplication": false,
+          "isUnlocked": false
+        }
+      },
+      {
+        "type": "user",
+        "id": "12899",
+        "attributes": {
+          "uniqueId": "8fdb6e0b-c5f3-11ea-bc82-96c1969b034f",
+          "email": "******",
+          "firstName": "Shimaa",
+          "middleName": null,
+          "lastName": "Samir",
+          "birthDate": "10/29/1988 00:00:00",
+          "age": 33,
+          "gender": "female",
+          "photo": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/6936445b02460891c0d99289cd8b0544.jpg",
+          "thumbnail": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_f8234ac90b4ef3f7b7d11f4f8cf205c1.jpg",
+          "photoVersions": {
+            "thumbnail": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_f8234ac90b4ef3f7b7d11f4f8cf205c1.jpg",
+            "small": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_f8234ac90b4ef3f7b7d11f4f8cf205c1.jpg",
+            "xsmall": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_f8234ac90b4ef3f7b7d11f4f8cf205c1.jpg"
+          },
+          "postalCode": "12987",
+          "primaryPhone": "******",
+          "otherPhone": null,
+          "joinedAt": "03/22/2020 10:09:47",
+          "lastLogin": "11/25/2019 19:48:27",
+          "lastUpdate": "03/14/2021 13:56:49",
+          "lastProfileUpdate": "03/14/2021 13:56:49"
+        },
+        "meta": {
+          "isUnlocked": true,
+          "isAllowedToAccessContacts": false
+        }
+      },
+      {
+        "type": "applicationScore",
+        "id": "25526406",
+        "attributes": {
+          "totalScore": 70.9825
+        }
+      },
+      {
+        "type": "talentApplication",
+        "id": "25533683",
+        "attributes": {
+          "jobId": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f",
+          "createdAt": "03/23/2022 13:13:30",
+          "updatedAt": "03/23/2022 13:13:30",
+          "isApplied": false,
+          "appliedAt": null
+        },
+        "relationships": {
+          "talentUser": {
+            "data": {
+              "type": "user",
+              "id": "12899"
+            }
+          },
+          "opportunity": {
+            "data": {
+              "type": "opportunity",
+              "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f"
+            }
+          },
+          "job": {
+            "data": {
+              "type": "job",
+              "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f"
+            }
+          },
+          "applicationState": {
+            "data": {
+              "type": "lookupApplicationState",
+              "id": "2"
+            }
+          },
+          "answers": {
+            "data": []
+          },
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "10"
+            }
+          },
+          "applicationScore": {
+            "data": {
+              "type": "applicationScore",
+              "id": "25526406"
+            }
+          },
+          "applicationMovements": {
+            "data": [
+              {
+                "type": "applicationMovement",
+                "id": "30944824"
+              }
+            ]
+          },
+          "views": {
+            "data": []
+          },
+          "notes": {
+            "data": []
+          }
+        },
+        "meta": {
+          "isFreeUnlocked": false,
+          "isSharedJobApplication": false,
+          "isUnlocked": true
+        }
+      },
+      {
+        "type": "user",
+        "id": "12287",
+        "attributes": {
+          "uniqueId": "8fdb6137-c5f3-11ea-bc82-96c1969b034f",
+          "email": "******",
+          "firstName": "mai",
+          "middleName": "g.",
+          "lastName": "m.",
+          "birthDate": "02/17/1991 00:00:00",
+          "age": 31,
+          "gender": "female",
+          "photo": null,
+          "thumbnail": null,
+          "photoVersions": {
+            "thumbnail": null,
+            "small": null,
+            "xsmall": null
+          },
+          "postalCode": null,
+          "primaryPhone": "******",
+          "otherPhone": null,
+          "joinedAt": "03/22/2020 10:09:47",
+          "lastLogin": "12/10/2019 10:15:02",
+          "lastUpdate": "03/14/2021 13:56:49",
+          "lastProfileUpdate": "03/14/2021 13:56:49"
+        },
+        "meta": {
+          "isUnlocked": false,
+          "isAllowedToAccessContacts": false
+        }
+      },
+      {
+        "type": "applicationScore",
+        "id": "25526407",
+        "attributes": {
+          "totalScore": 69.2568
+        }
+      },
+      {
+        "type": "talentApplication",
+        "id": "25533684",
+        "attributes": {
+          "jobId": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f",
+          "createdAt": "03/23/2022 13:13:30",
+          "updatedAt": "03/23/2022 13:13:30",
+          "isApplied": false,
+          "appliedAt": null
+        },
+        "relationships": {
+          "talentUser": {
+            "data": {
+              "type": "user",
+              "id": "12287"
+            }
+          },
+          "opportunity": {
+            "data": {
+              "type": "opportunity",
+              "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f"
+            }
+          },
+          "job": {
+            "data": {
+              "type": "job",
+              "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f"
+            }
+          },
+          "applicationState": {
+            "data": {
+              "type": "lookupApplicationState",
+              "id": "2"
+            }
+          },
+          "answers": {
+            "data": []
+          },
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "10"
+            }
+          },
+          "applicationScore": {
+            "data": {
+              "type": "applicationScore",
+              "id": "25526407"
+            }
+          },
+          "applicationMovements": {
+            "data": [
+              {
+                "type": "applicationMovement",
+                "id": "30944825"
+              }
+            ]
+          },
+          "views": {
+            "data": []
+          },
+          "notes": {
+            "data": []
+          }
+        },
+        "meta": {
+          "isFreeUnlocked": false,
+          "isSharedJobApplication": false,
+          "isUnlocked": false
+        }
+      },
+      {
+        "type": "user",
+        "id": "1055466",
+        "attributes": {
+          "uniqueId": "907404e5-c5f3-11ea-bc82-96c1969b034f",
+          "email": "******",
+          "firstName": "Mohamed",
+          "middleName": "M.",
+          "lastName": "A.",
+          "birthDate": "03/24/1991 00:00:00",
+          "age": 31,
+          "gender": "male",
+          "photo": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/8ba0efa5ea6d1857a90e65d15845925f.jpg",
+          "thumbnail": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_9ef3dbd35096826acdc56042a2c45718.jpg",
+          "photoVersions": {
+            "thumbnail": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_9ef3dbd35096826acdc56042a2c45718.jpg",
+            "small": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_9ef3dbd35096826acdc56042a2c45718.jpg",
+            "xsmall": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_9ef3dbd35096826acdc56042a2c45718.jpg"
+          },
+          "postalCode": null,
+          "primaryPhone": "******",
+          "otherPhone": null,
+          "joinedAt": "03/22/2020 10:09:47",
+          "lastLogin": "12/07/2019 21:28:16",
+          "lastUpdate": "08/26/2019 13:03:08",
+          "lastProfileUpdate": "12/05/2019 11:38:52"
+        },
+        "meta": {
+          "isUnlocked": false,
+          "isAllowedToAccessContacts": false
+        }
+      },
+      {
+        "type": "applicationScore",
+        "id": "25526405",
+        "attributes": {
+          "totalScore": 73.7695
+        }
+      },
+      {
+        "type": "talentApplication",
+        "id": "25533682",
+        "attributes": {
+          "jobId": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f",
+          "createdAt": "03/23/2022 13:13:29",
+          "updatedAt": "03/23/2022 13:13:29",
+          "isApplied": false,
+          "appliedAt": null
+        },
+        "relationships": {
+          "talentUser": {
+            "data": {
+              "type": "user",
+              "id": "1055466"
+            }
+          },
+          "opportunity": {
+            "data": {
+              "type": "opportunity",
+              "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f"
+            }
+          },
+          "job": {
+            "data": {
+              "type": "job",
+              "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f"
+            }
+          },
+          "applicationState": {
+            "data": {
+              "type": "lookupApplicationState",
+              "id": "2"
+            }
+          },
+          "answers": {
+            "data": []
+          },
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "10"
+            }
+          },
+          "applicationScore": {
+            "data": {
+              "type": "applicationScore",
+              "id": "25526405"
+            }
+          },
+          "applicationMovements": {
+            "data": [
+              {
+                "type": "applicationMovement",
+                "id": "30944823"
+              }
+            ]
+          },
+          "views": {
+            "data": []
+          },
+          "notes": {
+            "data": []
+          }
+        },
+        "meta": {
+          "isFreeUnlocked": false,
+          "isSharedJobApplication": false,
+          "isUnlocked": false
+        }
+      },
+      {
+        "type": "user",
+        "id": "136",
+        "attributes": {
+          "uniqueId": "8fd98f83-c5f3-11ea-bc82-96c1969b034f",
+          "email": "******",
+          "firstName": "Islam",
+          "middleName": ".",
+          "lastName": "A.",
+          "birthDate": "11/09/1989 00:00:00",
+          "age": 32,
+          "gender": "male",
+          "photo": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/203a64f336dd50429e0272152472361e.jpeg",
+          "thumbnail": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_203a64f336dd50429e0272152472361e.jpeg",
+          "photoVersions": {
+            "thumbnail": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_203a64f336dd50429e0272152472361e.jpeg",
+            "small": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_203a64f336dd50429e0272152472361e.jpeg",
+            "xsmall": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_203a64f336dd50429e0272152472361e.jpeg"
+          },
+          "postalCode": "11553",
+          "primaryPhone": "******",
+          "otherPhone": "******",
+          "joinedAt": "07/05/2020 10:09:47",
+          "lastLogin": "12/05/2019 14:45:30",
+          "lastUpdate": "03/07/2021 12:59:08",
+          "lastProfileUpdate": "03/07/2021 12:59:08"
+        },
+        "meta": {
+          "isUnlocked": false,
+          "isAllowedToAccessContacts": false
+        }
+      },
+      {
+        "type": "applicationScore",
+        "id": "25526404",
+        "attributes": {
+          "totalScore": 74.1497
+        }
+      },
+      {
+        "type": "talentApplication",
+        "id": "25533681",
+        "attributes": {
+          "jobId": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f",
+          "createdAt": "03/23/2022 13:13:28",
+          "updatedAt": "03/23/2022 13:13:28",
+          "isApplied": false,
+          "appliedAt": null
+        },
+        "relationships": {
+          "talentUser": {
+            "data": {
+              "type": "user",
+              "id": "136"
+            }
+          },
+          "opportunity": {
+            "data": {
+              "type": "opportunity",
+              "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f"
+            }
+          },
+          "job": {
+            "data": {
+              "type": "job",
+              "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f"
+            }
+          },
+          "applicationState": {
+            "data": {
+              "type": "lookupApplicationState",
+              "id": "2"
+            }
+          },
+          "answers": {
+            "data": []
+          },
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "10"
+            }
+          },
+          "applicationScore": {
+            "data": {
+              "type": "applicationScore",
+              "id": "25526404"
+            }
+          },
+          "applicationMovements": {
+            "data": [
+              {
+                "type": "applicationMovement",
+                "id": "30944822"
+              }
+            ]
+          },
+          "views": {
+            "data": []
+          },
+          "notes": {
+            "data": []
+          }
+        },
+        "meta": {
+          "isFreeUnlocked": false,
+          "isSharedJobApplication": false,
+          "isUnlocked": false
+        }
+      },
+      {
+        "type": "user",
+        "id": "1976621",
+        "attributes": {
+          "uniqueId": "91334237-c5f3-11ea-bc82-96c1969b034f",
+          "email": "******",
+          "firstName": "Nadine",
+          "middleName": ".",
+          "lastName": "O.",
+          "birthDate": "07/29/1993 00:00:00",
+          "age": 28,
+          "gender": "female",
+          "photo": null,
+          "thumbnail": null,
+          "photoVersions": {
+            "thumbnail": null,
+            "small": null,
+            "xsmall": null
+          },
+          "postalCode": null,
+          "primaryPhone": "******",
+          "otherPhone": "",
+          "joinedAt": "03/22/2020 10:09:47",
+          "lastLogin": "12/04/2019 01:37:29",
+          "lastUpdate": "11/01/2018 11:18:50",
+          "lastProfileUpdate": "12/04/2019 19:24:41"
+        },
+        "meta": {
+          "isUnlocked": false,
+          "isAllowedToAccessContacts": false
+        }
+      },
+      {
+        "type": "applicationScore",
+        "id": "25526403",
+        "attributes": {
+          "totalScore": 78.1411
+        }
+      },
+      {
+        "type": "talentApplication",
+        "id": "25533680",
+        "attributes": {
+          "jobId": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f",
+          "createdAt": "03/23/2022 13:13:26",
+          "updatedAt": "03/23/2022 13:13:26",
+          "isApplied": false,
+          "appliedAt": null
+        },
+        "relationships": {
+          "talentUser": {
+            "data": {
+              "type": "user",
+              "id": "1976621"
+            }
+          },
+          "opportunity": {
+            "data": {
+              "type": "opportunity",
+              "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f"
+            }
+          },
+          "job": {
+            "data": {
+              "type": "job",
+              "id": "91034ff1-bc7e-433f-a3eb-8a084ad4f42f"
+            }
+          },
+          "applicationState": {
+            "data": {
+              "type": "lookupApplicationState",
+              "id": "2"
+            }
+          },
+          "answers": {
+            "data": []
+          },
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "10"
+            }
+          },
+          "applicationScore": {
+            "data": {
+              "type": "applicationScore",
+              "id": "25526403"
+            }
+          },
+          "applicationMovements": {
+            "data": [
+              {
+                "type": "applicationMovement",
+                "id": "30944821"
+              }
+            ]
+          },
+          "views": {
+            "data": []
+          },
+          "notes": {
+            "data": []
+          }
+        },
+        "meta": {
+          "isFreeUnlocked": false,
+          "isSharedJobApplication": false,
+          "isUnlocked": false
+        }
+      },
+      {
+        "type": "user",
+        "id": "1851507",
+        "attributes": {
+          "uniqueId": "9115706c-c5f3-11ea-bc82-96c1969b034f",
+          "email": "******",
+          "firstName": "mina",
+          "middleName": "b.",
+          "lastName": "b.",
+          "birthDate": "05/16/1996 00:00:00",
+          "age": 26,
+          "gender": "male",
+          "photo": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/febf55562db046cb1e5f29674767f97d.jpg",
+          "thumbnail": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_c786053f0767249668119972ba4c28a3.jpg",
+          "photoVersions": {
+            "thumbnail": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_c786053f0767249668119972ba4c28a3.jpg",
+            "small": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_c786053f0767249668119972ba4c28a3.jpg",
+            "xsmall": "https://wuzzuf-testing.s3.eu-west-1.amazonaws.com/files/user-photos/thumb_c786053f0767249668119972ba4c28a3.jpg"
+          },
+          "postalCode": "12211",
+          "primaryPhone": "******",
+          "otherPhone": "******",
+          "joinedAt": "03/22/2020 10:09:47",
+          "lastLogin": "12/09/2019 21:48:06",
+          "lastUpdate": "08/13/2018 13:41:05",
+          "lastProfileUpdate": "12/08/2018 21:22:41"
+        },
+        "meta": {
+          "isUnlocked": false,
+          "isAllowedToAccessContacts": false
+        }
+      },
+      {
+        "type": "opportunityWorkType",
+        "id": "335534",
+        "relationships": {
+          "workType": {
+            "data": {
+              "type": "workType",
+              "id": "1"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2302489",
+        "attributes": {
+          "name": "Inbox",
+          "createdAt": "06/28/2021 11:43:46",
+          "updatedAt": "06/28/2021 11:43:46"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "2"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2302490",
+        "attributes": {
+          "name": "Ok",
+          "createdAt": "06/28/2021 11:43:46",
+          "updatedAt": "06/28/2021 12:59:08"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "4"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2302491",
+        "attributes": {
+          "name": "Shortlisted",
+          "createdAt": "06/28/2021 11:43:46",
+          "updatedAt": "06/28/2021 12:59:08"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "5"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2302492",
+        "attributes": {
+          "name": "--",
+          "createdAt": "06/28/2021 11:43:46",
+          "updatedAt": "06/28/2021 12:59:08"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "6"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2302493",
+        "attributes": {
+          "name": "Hired",
+          "createdAt": "06/28/2021 11:43:46",
+          "updatedAt": "06/28/2021 11:43:46"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "8"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2302494",
+        "attributes": {
+          "name": "Recommended",
+          "createdAt": "06/28/2021 11:43:46",
+          "updatedAt": "06/28/2021 11:43:46"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "10"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2302495",
+        "attributes": {
+          "name": "Handpicked",
+          "createdAt": "06/28/2021 11:43:46",
+          "updatedAt": "06/28/2021 11:43:46"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "11"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2302496",
+        "attributes": {
+          "name": "Disqualified",
+          "createdAt": "06/28/2021 11:43:46",
+          "updatedAt": "06/28/2021 11:43:46"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "13"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunityFolderSetup",
+        "id": "2302497",
+        "attributes": {
+          "name": "Non-matching",
+          "createdAt": "06/28/2021 11:43:46",
+          "updatedAt": "06/28/2021 11:43:46"
+        },
+        "relationships": {
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "14"
+            }
+          }
+        }
+      },
+      {
+        "type": "opportunity",
+        "id": "668b5e41-4a37-4ea6-a124-a41fd7b34f25",
+        "attributes": {
+          "jobType": "job",
+          "title": "cjfhkdlg",
+          "description": "<p>bfjghfdklj;hkln'jgmhjgl;fkdljsknajhvzbcxbnm ,.k gfkgfhgkfjgsklueoewpq;oeritughjvnmcdxzdjsifhgjkfsvdn,cx`mz.,/kc</p>",
+          "gender": "No Preference",
+          "logo": null,
+          "views": 0,
+          "numVacancies": "1",
+          "experienceYears": "1-7",
+          "isConfidential": false,
+          "tempWorkingFromHome": false,
+          "salaryMin": 3900,
+          "salaryMax": 65464,
+          "salaryPeriod": "Per Month",
+          "hideSalary": true,
+          "isAutoPosted": false,
+          "slug": "3IZXANZ9atd9-cjfhkdlg-New-Cairo-British-International-School-Elbasan-Albania",
+          "isInternal": true,
+          "externalApplyLink": null,
+          "status": "Active",
+          "postedAt": "10/06/2021 20:53:33",
+          "expiresAt": "12/05/2021 20:53:33",
+          "createdAt": "06/28/2021 11:43:46",
+          "updatedAt": "10/06/2021 20:53:33",
+          "opportunityType": "job",
+          "isDraft": false,
+          "isImpersonatedCreator": false
+        },
+        "relationships": {
+          "company": {
+            "data": {
+              "type": "company",
+              "id": "14868"
+            }
+          },
+          "opportunityWorkTypes": {
+            "data": [
+              {
+                "type": "opportunityWorkType",
+                "id": "335534"
+              }
+            ]
+          },
+          "createdBy": {
+            "data": {
+              "type": "employerUser",
+              "id": "815495"
+            }
+          },
+          "opportunityFolderSetup": {
+            "data": [
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2302489"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2302490"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2302491"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2302492"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2302493"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2302494"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2302495"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2302496"
+              },
+              {
+                "type": "opportunityFolderSetup",
+                "id": "2302497"
+              }
+            ]
+          }
+        },
+        "links": {
+          "view": "jobs/p/3IZXANZ9atd9-cjfhkdlg-New-Cairo-British-International-School-Elbasan-Albania"
+        }
+      },
+      {
+        "type": "applicationScore",
+        "id": "25526282",
+        "attributes": {
+          "totalScore": 54.4585
+        }
+      },
+      {
+        "type": "talentApplication",
+        "id": "25533556",
+        "attributes": {
+          "jobId": "668b5e41-4a37-4ea6-a124-a41fd7b34f25",
+          "createdAt": "06/28/2021 11:46:03",
+          "updatedAt": "06/28/2021 11:46:03",
+          "isApplied": false,
+          "appliedAt": null
+        },
+        "relationships": {
+          "talentUser": {
+            "data": {
+              "type": "user",
+              "id": "1851507"
+            }
+          },
+          "opportunity": {
+            "data": {
+              "type": "opportunity",
+              "id": "668b5e41-4a37-4ea6-a124-a41fd7b34f25"
+            }
+          },
+          "job": {
+            "data": {
+              "type": "job",
+              "id": "668b5e41-4a37-4ea6-a124-a41fd7b34f25"
+            }
+          },
+          "applicationState": {
+            "data": {
+              "type": "lookupApplicationState",
+              "id": "2"
+            }
+          },
+          "answers": {
+            "data": []
+          },
+          "lookupOpportunityFolder": {
+            "data": {
+              "type": "lookupOpportunityFolder",
+              "id": "10"
+            }
+          },
+          "applicationScore": {
+            "data": {
+              "type": "applicationScore",
+              "id": "25526282"
+            }
+          },
+          "applicationMovements": {
+            "data": [
+              {
+                "type": "applicationMovement",
+                "id": "30944693"
+              }
+            ]
+          },
+          "views": {
+            "data": []
+          },
+          "notes": {
+            "data": []
+          }
+        },
+        "meta": {
+          "isFreeUnlocked": false,
+          "isSharedJobApplication": false,
+          "isUnlocked": false
+        }
+      }
+    ]
+  },
+  "https://testing.wuzzuf.basharsys.com/api/employer/recent-unlocks?sort=-createdAt&include=talentUser,employerUser,talentApplication.opportunity.createdBy,talentApplication.opportunity.company,talentApplication.opportunity.opportunityWorkTypes.workType,talentApplication.opportunity.opportunityFolderSetup.lookupOpportunityFolder&page[offset]=0&page[limit]=40": {
+    "data": []
+  },
+  "https://testing.wuzzuf.basharsys.com/api/employer/team-activity?include=employerUser,opportunity.company": {
+    "data": []
+  }
+}
