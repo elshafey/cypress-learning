@@ -3,10 +3,26 @@
 describe("Network Interception", () => {
     beforeEach(() => {
         // cy.login('test147@test.com', '12345678')
-        cy.login('mai@wuzzuf.net', '12345678')
+        // cy.login('mai@wuzzuf.net', '12345678')
         
     })
-    it.skip('Rout Matcher',()=>{
+    it.only('Rout Matcher',()=>{
+        //login by employer account
+        cy.login('mai@wuzzuf.net', '12345678')
+        cy.wait(5000);
+        // login by js account
+        cy.login('Automation123@cypress.com', '12345678')
+        cy.wait(5000);
+
+        //login by employer account
+        cy.login('mai@wuzzuf.net', '12345678')
+        cy.wait(5000);
+        // login by js account
+        cy.login('Automation123@cypress.com', '12345678')
+        cy.wait(5000);
+
+        
+
         let m=Cypress.minimatch('https://testing.wuzzuf.basharsys.com/api/employer/unread-suggested-apps?sort=-createdAt&include=employerUser,talentApplication.talentUser,talentApplication.lookupOpportunityFolder,talentApplication.applicationScore,talentApplication.opportunity.createdBy,talentApplication.opportunity.company,talentApplication.opportunity.opportunityWorkTypes.workType,talentApplication.opportunity.opportunityFolderSetup.lookupOpportunityFolder&page[offset]=0&page[limit]=40'
         , '**/api/employer/unread-suggested-apps**', {
             matchBase: true,
@@ -14,7 +30,7 @@ describe("Network Interception", () => {
         console.log(m)
         expect(m, 'matching wildcard').to.be.true
     })
-    it.skip("Example1: Simple request matching", () => {
+    it("Example1: Simple request matching", () => {
         cy.intercept(
             {
                 // pathname : /\/api\/employer\/unread-suggested-apps/
@@ -58,7 +74,7 @@ describe("Network Interception", () => {
         // cy.wait('@api')
     })
 
-    it.only("Example4: Stub the request with no results",()=>{
+    it.skip("Example4: Stub the request with no results",()=>{
         cy.intercept(
             {
                 pathname : /\/api\/employer\/unread-suggested-apps/
